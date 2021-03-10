@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
+<head>
+    {{ partial "head.html" . }}
+</head>
 
-    {{ block "body" . }}
-        <body>
+{{ block "body" . }}
+<body>
+{{ end }}
+
+<div class="container">
+    {{ partial "header.html" . }}
+
+    <div class="content">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
     {{ end }}
-    
-        <div class="container">
-            {{ partial "header.html" . }}
+</div>
 
-            <div class="content">
-                {{ block "main" . }}{{ end }}
-            </div>
+{{ partial "javascript.html" . }}
 
-            {{ block "footer" . }}
-                {{ partial "footer.html" . }}
-            {{ end }}
-        </div>
+<script>
+    if (detectedSiteType.type === SiteType.BeeSubfolder) {
+        // prepare scripts
+        // const scripts = Array.from(document.querySelectorAll('script')).filter(item => {
+        //     const src = item.getAttribute('src');
+        //     return src ? src[0] === '/' && src[1] !== '/' : false;
+        // });
+        // console.log(scripts);
+        // scripts.forEach(item => {
+        //     let src = item.getAttribute('src');
+        //     console.log('script', src);
+        //     item.setAttribute('src', detectedSiteType.url + src);
+        // });
 
-        {{ partial "javascript.html" . }}
-    </body>
+        // prepare posts images
+        // const images = document.querySelectorAll('.post-content img');
+        // images.forEach(item => {
+        //     let src = item.getAttribute('src');
+        //     console.log('image', src);
+        //     item.setAttribute('src', detectedSiteType.url + src);
+        // });
+    }
+</script>
+</body>
 </html>

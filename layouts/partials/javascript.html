@@ -2,7 +2,14 @@
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $prism := resources.Get "js/prism.js" }}
 {{ $secureJS := slice $main $menu $prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+
+
+<script>
+    const script = document.createElement('script');
+    script.integrity = '{{ $secureJS.Data.Integrity }}';
+    script.src = wrapUrl('{{ $secureJS.RelPermalink }}');
+    document.write(script.outerHTML);
+</script>
 
 {{- if .Site.GoogleAnalytics }}
     {{ template "_internal/google_analytics.html" . }}

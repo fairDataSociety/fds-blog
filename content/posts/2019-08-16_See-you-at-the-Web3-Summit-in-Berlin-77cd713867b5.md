@@ -9,7 +9,7 @@ keywords: []
 slug: /@miha.mohorko.cmt/see-you-at-the-web3-summit-in-berlin-77cd713867b5
 ---
 
-![](img/1____2hzvdFqRMAdsEhz36M2aw.png)
+![](posts/img/1____2hzvdFqRMAdsEhz36M2aw.png)
 undefined
 
 Hey, everyone. Form August 19–21 the Datafund team will be in Berlin, attending one of the key annual events in Web3 development, the Web3 Summit in Berlin. We’ll be there to see the latest developments in decentralised technologies and also make sure new crowds hear about the work we do.

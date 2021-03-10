@@ -20,7 +20,7 @@ But the really great thing about this library is that it represents the foundati
 
 **Click the picture below and watch the 30 min talk from EthCC 2019.**
 
-[![](https://cdn-images-1.medium.com/max/800/0*chYw6xp2KcCUEu5n)](https://www.youtube.com/watch?v=HsU5rTRPWws)
+[![](posts/img/0_chYw6xp2KcCUEu5n.png)](https://www.youtube.com/watch?v=HsU5rTRPWws)
 undefined
 
 The response gave us a renewed confidence about our vision and a strengthened reason to look forward to future collaborations. So keep following us. If Fair Data Society’s values and vision resonate with your project, you are more than welcome to join us.

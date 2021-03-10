@@ -7,8 +7,7 @@ keywords: []
 slug: /@miha.mohorko.cmt/data-slavery-or-fair-data-society-you-decide-119e31944393
 ---
 
-![](img/1__Zcn9RGnK2dnapChFnFIYYQ.jpeg)
-undefined
+![](posts/img/1__Zcn9RGnK2dnapChFnFIYYQ.jpeg)
 
 _This blog was first published on the_ [_Datafund blog_](https://blog.datafund.net/)_._
 
@@ -26,8 +25,7 @@ The ways web giants abuse their privileged access to our data and sell it to the
 
 To propose an alternative way Datafund has recently launched the [**Fair Data Society Decentralised Altruistic Community**](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070) (**FDS** [**DAC**](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4)) on [**Giveth**](https://giveth.io/). Briefly, FDS DAC is Datafund’s organisational upgrade and the first step to a DAO. It’s also part of a much grander effort to change the dysfunctional way personal data is treated and to create a society that respects the rights of individuals’ to privacy.
 
-![](img/1__sWHkw4EX5pUMzBR4NjCRrg.jpeg)
-undefined
+![](posts/img/1__sWHkw4EX5pUMzBR4NjCRrg.jpeg)
 
 **And we started it on Giveth because it is the perfect platform to begin our journey from.** It offers an entirely new way for social initiatives to present, fund and organise themselves at unprecedented levels of transparency and accountability. Here’s how it works.
 
@@ -47,8 +45,7 @@ The FDS DAC will manage several campaigns, with new ones being added regularly a
 
 > **This is the part where we warmly invite you to become a part of our FDS DAC.**
 
-![](img/1__1f7IykBHraWOAsJI8JJVoQ.jpeg)
-undefined
+![](posts/img/1__1f7IykBHraWOAsJI8JJVoQ.jpeg)
 
 What we want is for our DAC to start off as a collaborative effort that later evolves into a completely new form of an independent decentralised organisation — a DAO. That’s why all the documents related to the projects covered by the FDS DAC will be open to you, the public, to leave your ideas, comments, suggestions, critiques… Together we can evolve an idea into a living, breathing creation.
 

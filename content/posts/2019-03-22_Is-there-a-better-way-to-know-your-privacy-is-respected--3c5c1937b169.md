@@ -10,7 +10,7 @@ slug: >-
   /@miha.mohorko.cmt/is-there-a-better-way-to-know-your-privacy-is-respected-3c5c1937b169
 ---
 
-![](img/1____eM__twPQbsRKYg3JRRxnFQ.jpeg)
+![](posts/img/1____eM__twPQbsRKYg3JRRxnFQ.jpeg)
 undefined
 
 _This blog was first published on the_ [_Datafund blog_](https://blog.datafund.net/)_._

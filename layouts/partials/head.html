@@ -18,13 +18,54 @@
     </title>
 {{ end }}
 
+<script>
+    const SiteType = {
+        BeeSubfolder: 'BeeSubfolder',
+        Web2Root: 'Web2Root',
+    };
+
+    function detectSiteType() {
+        let type = SiteType.Web2Root;
+        let url = '';
+        const parts = window.location.pathname.split('/');
+        if (parts.length >= 3 && parts[1] === 'bzz') {
+            type = SiteType.BeeSubfolder;
+            url = `${window.location.origin}/${parts[1]}/${parts[2]}`;
+        }
+
+        return {type, url};
+    }
+
+    function wrapUrl(url) {
+        if (detectedSiteType.type === SiteType.BeeSubfolder) {
+            return detectedSiteType.url + url;
+        }
+
+        return url;
+    }
+
+    const detectedSiteType = detectSiteType();
+    console.log('Site info', detectedSiteType);
+    window._detectedSiteType = detectedSiteType;
+
+    const base = document.createElement('base');
+    base.href = wrapUrl('/');
+    document.write(base.outerHTML);
+</script>
+
 <!-- CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
     type="text/css">
 
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<script>
+    const style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.href = wrapUrl('{{ $style.RelPermalink }}');
+    document.write(style.outerHTML);
+</script>
 
 {{ range $val := $.Site.Params.customCSS }}
     {{ if gt (len $val) 0 }}

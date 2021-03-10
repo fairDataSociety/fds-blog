@@ -1,6 +1,6 @@
 {{ define "main" }}
     {{ $paginator := .Paginate .Data.Pages }}
-    
+
     <main class="posts">
         <h1>{{ .Title }}</h1>
 
@@ -15,7 +15,7 @@
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a href="{{.Permalink}}">
+                            <a href="{{substr .RelPermalink 1}}">
                                 <span class="post-title">{{.Title}}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
