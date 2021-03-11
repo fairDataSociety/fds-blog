@@ -3,22 +3,47 @@
 {{ end }}
 
 {{ define "main" }}
-    <main aria-role="main">
-        <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+    <a href="">
+        <img src="posts/img/fds_logo.jpeg" alt="Fair Data Society" style="max-width: 200px;">
+    </a>
+    <h1>{{ .Title }}</h1>
+</div>
+
+<main class="posts">
+
+<!--    <h1>{{ .Title }}</h1>-->
+
+    {{ if .Content }}
+    <div class="content">{{ .Content }}</div>
+    {{ end }}
+
+    {{ range $paginator.Pages.GroupByDate "2006" }}
+    <div class="posts-group">
+        <div class="post-year">{{ .Key }}</div>
+
+        <ul class="posts-list">
+            {{ range .Pages}}
+
+            <li class="post-item">
+                <a href="{{substr .RelPermalink 1}}">
+                    <span class="post-title">{{.Title}}</span>
+                    <span class="post-day">
+                                    {{ if .Site.Params.dateformShort }}
+                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                    {{ else }}
+                                        {{ .Date.Format "Jan 2"}}
+                                    {{ end }}
+                                </span>
+                </a>
+            </li>
+
             {{ end }}
-
-            <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
-            {{- end }}
-
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
-        </div>
-    </main>
+        </ul>
+    </div>
+    {{ end }}
+    {{ partial "pagination-list.html" . }}
+</main>
 {{ end }}

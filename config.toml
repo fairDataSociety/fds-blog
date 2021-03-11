@@ -1,4 +1,4 @@
-title   = "Hello Friend NG"
+title   = "Fair Data Society"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -168,7 +168,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+#   [[menu.main]]
+#     identifier = "posts"
+#     name       = "Posts"
+#     url        = "posts/"

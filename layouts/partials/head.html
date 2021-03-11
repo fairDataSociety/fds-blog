@@ -41,7 +41,7 @@
             return detectedSiteType.url + url;
         }
 
-        return url;
+        return `${document.location.origin}${url}`;
     }
 
     const detectedSiteType = detectSiteType();
