@@ -11,7 +11,6 @@ slug: >-
 ---
 
 ![](posts/img/1____eM__twPQbsRKYg3JRRxnFQ.jpeg)
-undefined
 
 _This blog was first published on the_ [_Datafund blog_](https://blog.datafund.net/)_._
 
