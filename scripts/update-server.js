@@ -8,7 +8,7 @@ if (!fs.existsSync('./secret.txt')) {
     return;
 }
 
-const secret = fs.readFileSync('./secret.txt');
+const secret = fs.readFileSync('./secret.txt', {encoding: 'utf-8'}).trim();
 // For these headers, a sigHashAlg of sha1 must be used instead of sha256
 // GitHub: X-Hub-Signature
 // Gogs:   X-Gogs-Signature
