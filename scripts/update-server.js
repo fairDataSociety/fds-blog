@@ -40,6 +40,7 @@ app.use(bodyParser.json({
 }));
 
 app.post('/git', verifyPostData, (req, res) => {
+    console.log('Request was signed successfully!');
     res.status(200).send('Request body was signed');
     // todo upload to bee here
 });
