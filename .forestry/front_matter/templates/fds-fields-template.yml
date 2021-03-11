@@ -20,5 +20,3 @@ fields:
 - type: text
   name: slug
   label: slug
-pages:
-- content/posts/hello-world-post.md
