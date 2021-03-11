@@ -1,3 +1,4 @@
+const crypto = require('crypto')
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
@@ -8,26 +9,44 @@ if (!fs.existsSync('./secret.txt')) {
 }
 
 const secret = fs.readFileSync('./secret.txt');
-const app = express();
-app.use(bodyParser.json());
+// For these headers, a sigHashAlg of sha1 must be used instead of sha256
+// GitHub: X-Hub-Signature
+// Gogs:   X-Gogs-Signature
+const sigHeaderName = 'X-Hub-Signature-256'
+const sigHashAlg = 'sha256'
 
-app.post('/git', (req, res) => {
-    try {
-        console.log(req.body);
-        if (req.body.hook.config.secret === secret) {
-            console.log('Secret is ok');
-            res.send('ok');
-            res.sendStatus(200);
-            return;
-        } else {
-            console.log('Secret is not ok');
-            res.send('not ok');
-        }
-    } catch (e) {
-        console.log('Error', e);
+function verifyPostData(req, res, next) {
+    if (!req.rawBody) {
+        return next('Request body empty')
     }
 
-    res.sendStatus(200);
+    const sig = Buffer.from(req.get(sigHeaderName) || '', 'utf8')
+    const hmac = crypto.createHmac(sigHashAlg, secret)
+    const digest = Buffer.from(sigHashAlg + '=' + hmac.update(req.rawBody).digest('hex'), 'utf8')
+    if (sig.length !== digest.length || !crypto.timingSafeEqual(digest, sig)) {
+        return next(`Request body digest (${digest}) did not match ${sigHeaderName} (${sig})`)
+    }
+
+    return next()
+}
+
+const app = express();
+app.use(bodyParser.json({
+    verify: (req, res, buf, encoding) => {
+        if (buf && buf.length) {
+            req.rawBody = buf.toString(encoding || 'utf8');
+        }
+    },
+}));
+
+app.post('/git', verifyPostData, (req, res) => {
+    res.status(200).send('Request body was signed');
+    // todo upload to bee here
 });
+
+app.use((err, req, res, next) => {
+    if (err) console.error(err)
+    res.status(403).send('Request body was not signed or verification failed')
+})
 
 app.listen(8080, () => console.log(`Started server at http://localhost:8080!`));
