@@ -24,25 +24,14 @@
 
 <script>
     if (detectedSiteType.type === SiteType.BeeSubfolder) {
-        // prepare scripts
-        // const scripts = Array.from(document.querySelectorAll('script')).filter(item => {
-        //     const src = item.getAttribute('src');
-        //     return src ? src[0] === '/' && src[1] !== '/' : false;
-        // });
-        // console.log(scripts);
-        // scripts.forEach(item => {
-        //     let src = item.getAttribute('src');
-        //     console.log('script', src);
-        //     item.setAttribute('src', detectedSiteType.url + src);
-        // });
-
         // prepare posts images
-        // const images = document.querySelectorAll('.post-content img');
-        // images.forEach(item => {
-        //     let src = item.getAttribute('src');
-        //     console.log('image', src);
-        //     item.setAttribute('src', detectedSiteType.url + src);
-        // });
+        const images = document.querySelectorAll('.post-content img');
+        images.forEach(item => {
+            let src = item.getAttribute('src');
+            if (src[0] === '/') {
+                item.setAttribute('src', detectedSiteType.url + src);
+            }
+        });
     }
 </script>
 </body>
