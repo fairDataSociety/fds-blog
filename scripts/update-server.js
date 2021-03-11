@@ -16,16 +16,18 @@ app.post('/git', (req, res) => {
         console.log(req.body);
         if (req.body.hook.config.secret === secret) {
             console.log('Secret is ok');
+            res.send('ok');
             res.sendStatus(200);
             return;
         } else {
             console.log('Secret is not ok');
+            res.send('not ok');
         }
     } catch (e) {
         console.log('Error', e);
     }
 
-    res.sendStatus(503);
+    res.sendStatus(200);
 });
 
 app.listen(8080, () => console.log(`Started server at http://localhost:8080!`));
