@@ -82,6 +82,7 @@ app.post('/git', verifyPostData, (req, res) => {
             return;
         }
 
+        console.log(`exec stderr: ${stderr}`);
         // if (stderr) {
         //     console.log(`exec stderr: ${stderr}`);
         //     return;
