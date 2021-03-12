@@ -1,6 +1,7 @@
 const crypto = require('crypto')
 const express = require('express');
 const bodyParser = require('body-parser');
+const { exec } = require("child_process");
 const fs = require('fs');
 
 if (!fs.existsSync('./secret.txt')) {
@@ -42,7 +43,18 @@ app.use(bodyParser.json({
 app.post('/git', verifyPostData, (req, res) => {
     console.log('Request was signed successfully!');
     res.status(200).send('Request body was signed');
-    // todo upload to bee here
+
+    exec("cd /home/ubuntu/www/fds-blog && git pull origin master && hugo && cd public && tar -cf /tmp/fds_blog.tar . && curl -X POST -H \"Content-Type: application/x-tar\" -H \"Swarm-Index-Document: index.html\" -H \"Swarm-Error-Document: error.html\" --data-binary @/tmp/fds_blog.tar http://localhost:1633/dirs", (error, stdout, stderr) => {
+        if (error) {
+            console.log(`exec error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.log(`exec stderr: ${stderr}`);
+            return;
+        }
+        console.log(`exec stdout: ${stdout}`);
+    });
 });
 
 app.use((err, req, res, next) => {
