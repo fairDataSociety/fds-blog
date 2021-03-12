@@ -24,7 +24,8 @@ async function updateFeed(reference) {
     let bee = new Bee('http://localhost:1633');
     let topic = bee.makeFeedTopic('fds_blog');
     const feedWriter = bee.makeFeedWriter('sequence', topic, wallet.privateKey);
-    await feedWriter.upload(reference);
+    const uploaded = await feedWriter.upload(reference);
+    console.log('uploaded', uploaded);
 }
 
 if (!fs.existsSync('./secret.txt')) {
