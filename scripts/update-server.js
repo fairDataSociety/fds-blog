@@ -81,10 +81,10 @@ app.post('/git', verifyPostData, (req, res) => {
             return;
         }
 
-        if (stderr) {
-            console.log(`exec stderr: ${stderr}`);
-            return;
-        }
+        // if (stderr) {
+        //     console.log(`exec stderr: ${stderr}`);
+        //     return;
+        // }
 
         if (fs.existsSync(outPath)) {
             const reference = fs.readFileSync(outPath, {encoding: 'utf-8'});
