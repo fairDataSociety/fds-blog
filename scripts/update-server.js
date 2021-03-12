@@ -37,7 +37,7 @@ if (!fs.existsSync('./wallet.json')) {
     return;
 }
 
-initFeed().then();
+initFeed().then().catch();
 const secret = fs.readFileSync('./secret.txt', {encoding: 'utf-8'}).trim();
 // For these headers, a sigHashAlg of sha1 must be used instead of sha256
 // GitHub: X-Hub-Signature
@@ -89,7 +89,7 @@ app.post('/git', verifyPostData, (req, res) => {
             const reference = fs.readFileSync('./out.txt', {encoding: 'utf-8'});
             console.log(`Stored reference: ${reference}`);
             if (reference && reference.length === 64) {
-                updateFeed(reference).then();
+                updateFeed(reference).then().catch();
             }
         }
 
