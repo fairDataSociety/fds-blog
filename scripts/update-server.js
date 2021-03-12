@@ -1,7 +1,7 @@
 const crypto = require('crypto')
 const express = require('express');
 const bodyParser = require('body-parser');
-const { exec } = require("child_process");
+const {exec} = require("child_process");
 const fs = require('fs');
 
 if (!fs.existsSync('./secret.txt')) {
