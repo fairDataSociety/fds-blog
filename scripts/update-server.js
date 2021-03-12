@@ -3,12 +3,41 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const {exec} = require("child_process");
 const fs = require('fs');
+const {Bee} = require('@ethersphere/bee-js');
+
+async function initFeed() {
+    let bee = new Bee('http://localhost:1633');
+    const wallet = JSON.parse(fs.readFileSync('./wallet.json', {encoding: 'utf-8'}));
+    let topic = bee.makeFeedTopic('fds_blog');
+    let feedManifest = await bee.createFeedManifest('sequence', topic, wallet.address);
+    console.log('topic', topic);
+    console.log('feedManifest', feedManifest);
+    fs.writeFileSync('./feed.txt', feedManifest);
+
+    const feedReader = bee.makeFeedReader('sequence', topic, wallet.address);
+    const down = await feedReader.download();
+    console.log('Current feed value', down);
+}
+
+async function updateFeed(reference) {
+    const wallet = JSON.parse(fs.readFileSync('./wallet.json', {encoding: 'utf-8'}));
+    let bee = new Bee('http://localhost:1633');
+    let topic = bee.makeFeedTopic('fds_blog');
+    const feedWriter = bee.makeFeedWriter('sequence', topic, wallet.privateKey);
+    await feedWriter.upload(reference);
+}
 
 if (!fs.existsSync('./secret.txt')) {
     console.log('secret.txt not found. Please create and enter secret for github');
     return;
 }
 
+if (!fs.existsSync('./wallet.json')) {
+    console.log('wallet.json not found. Please create file with address and privateKey');
+    return;
+}
+
+initFeed().then();
 const secret = fs.readFileSync('./secret.txt', {encoding: 'utf-8'}).trim();
 // For these headers, a sigHashAlg of sha1 must be used instead of sha256
 // GitHub: X-Hub-Signature
@@ -44,15 +73,26 @@ app.post('/git', verifyPostData, (req, res) => {
     console.log('Request was signed successfully!');
     res.status(200).send('Request body was signed');
 
-    exec("cd /home/ubuntu/www/fds-blog && git pull origin master && hugo && cd public && tar -cf /tmp/fds_blog.tar . && curl -X POST -H \"Content-Type: application/x-tar\" -H \"Swarm-Index-Document: index.html\" -H \"Swarm-Error-Document: error.html\" --data-binary @/tmp/fds_blog.tar http://localhost:1633/dirs", (error, stdout, stderr) => {
+    fs.unlinkSync('./out.txt');
+    exec("cd /home/ubuntu/www/fds-blog && git pull origin master && hugo && cd public && tar -cf /tmp/fds_blog.tar . && curl -X POST -H \"Content-Type: application/x-tar\" -H \"Swarm-Index-Document: index.html\" -H \"Swarm-Error-Document: error.html\" --data-binary @/tmp/fds_blog.tar http://localhost:1633/dirs | jq -r .reference > out.txt", (error, stdout, stderr) => {
         if (error) {
             console.log(`exec error: ${error.message}`);
             return;
         }
+
         if (stderr) {
             console.log(`exec stderr: ${stderr}`);
             return;
         }
+
+        if (fs.existsSync('./out.txt')) {
+            const reference = fs.readFileSync('./out.txt', {encoding: 'utf-8'});
+            console.log(`Stored reference: ${reference}`);
+            if (reference && reference.length === 64) {
+                updateFeed(reference).then();
+            }
+        }
+
         console.log(`exec stdout: ${stdout}`);
     });
 });
