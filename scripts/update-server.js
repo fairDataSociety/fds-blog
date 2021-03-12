@@ -92,7 +92,7 @@ app.post('/git', verifyPostData, (req, res) => {
         // }
 
         if (fs.existsSync(outPath)) {
-            const reference = fs.readFileSync(outPath, {encoding: 'utf-8'});
+            const reference = fs.readFileSync(outPath, {encoding: 'utf-8'}).trim();
             console.log(`Stored reference: ${reference}`);
             if (reference && reference.length === 64) {
                 updateFeed(reference).then().catch();
