@@ -16,4 +16,4 @@ We’re excited to see and talk to some of the great folks we’ve had the pleas
 
 See you in Berlin!
 
-[**Twitter**](https://twitter.com/DataFundProject)[**Telegram**](https://t.me/DataFund)[**Linkedin**](https://www.linkedin.com/company/datafund)
+[**Twitter**](https://twitter.com/DataFundProject) [**Telegram**](https://t.me/DataFund) [**Linkedin**](https://www.linkedin.com/company/datafund)

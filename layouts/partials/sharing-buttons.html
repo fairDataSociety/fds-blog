@@ -87,3 +87,14 @@
     </div>
   </div>
 </a>
+
+<script>
+  if (detectedSiteType.type === SiteType.BeeSubfolder) {
+    const buttons = document.querySelectorAll('.resp-sharing-button__link');
+    buttons.forEach(item => {
+      let href = item.getAttribute('href');
+      href = href.replace(encodeURIComponent("{{ .Permalink }}").toLowerCase(), encodeURIComponent(document.location.href));
+      item.setAttribute('href', href);
+    });
+  }
+</script>
