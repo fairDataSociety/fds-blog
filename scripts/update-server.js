@@ -20,10 +20,13 @@ async function initFeed() {
 }
 
 async function updateFeed(reference) {
+    console.log('updateFeed start');
     const wallet = JSON.parse(fs.readFileSync('./wallet.json', {encoding: 'utf-8'}));
+    console.log('Wallet found');
     let bee = new Bee('http://localhost:1633');
     let topic = bee.makeFeedTopic('fds_blog');
     const feedWriter = bee.makeFeedWriter('sequence', topic, wallet.privateKey);
+    console.log('Start uploading reference');
     const uploaded = await feedWriter.upload(reference);
     console.log('uploaded', uploaded);
 }
@@ -93,6 +96,8 @@ app.post('/git', verifyPostData, (req, res) => {
             console.log(`Stored reference: ${reference}`);
             if (reference && reference.length === 64) {
                 updateFeed(reference).then().catch();
+            } else {
+                console.log(`Incorrect reference "${reference}"`);
             }
         }
 
