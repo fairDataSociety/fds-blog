@@ -15,6 +15,6 @@ Hey, everyone. Form August 19–21 the Datafund team will be in Berlin, attendin
 
 We’re excited to see and talk to some of the great folks we’ve had the pleasure to meet over the years and make new acquaintances. If you’ll be in Berlin and want to meet up or talk to us, let us know through one of our channels listed below. We’d love to hear from you!
 
-See you in Berlin!++
+See you in Berlin!--
 
 [**Twitter**](https://twitter.com/DataFundProject)[**Telegram**](https://t.me/DataFund)[**Linkedin**](https://www.linkedin.com/company/datafund)
