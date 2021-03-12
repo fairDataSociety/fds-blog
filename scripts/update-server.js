@@ -14,9 +14,9 @@ async function initFeed() {
     console.log('feedManifest', feedManifest);
     fs.writeFileSync('./feed.txt', feedManifest);
 
-    const feedReader = bee.makeFeedReader('sequence', topic, wallet.address);
-    const down = await feedReader.download();
-    console.log('Current feed value', down);
+    // const feedReader = bee.makeFeedReader('sequence', topic, wallet.address);
+    // const down = await feedReader.download();
+    // console.log('Current feed value', down);
 }
 
 async function updateFeed(reference) {
