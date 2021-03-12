@@ -73,7 +73,8 @@ app.post('/git', verifyPostData, (req, res) => {
     console.log('Request was signed successfully!');
     res.status(200).send('Request body was signed');
 
-    fs.existsSync('./out.txt') && fs.unlinkSync('./out.txt');
+    const outPath = '../public/out.txt';
+    fs.existsSync(outPath) && fs.unlinkSync(outPath);
     exec("cd /home/ubuntu/www/fds-blog && git pull origin master && hugo && cd public && tar -cf /tmp/fds_blog.tar . && curl -X POST -H \"Content-Type: application/x-tar\" -H \"Swarm-Index-Document: index.html\" -H \"Swarm-Error-Document: error.html\" --data-binary @/tmp/fds_blog.tar http://localhost:1633/dirs | jq -r .reference > out.txt", (error, stdout, stderr) => {
         if (error) {
             console.log(`exec error: ${error.message}`);
@@ -85,8 +86,8 @@ app.post('/git', verifyPostData, (req, res) => {
             return;
         }
 
-        if (fs.existsSync('./out.txt')) {
-            const reference = fs.readFileSync('./out.txt', {encoding: 'utf-8'});
+        if (fs.existsSync(outPath)) {
+            const reference = fs.readFileSync(outPath, {encoding: 'utf-8'});
             console.log(`Stored reference: ${reference}`);
             if (reference && reference.length === 64) {
                 updateFeed(reference).then().catch();
