@@ -8,3 +8,4 @@ slug = ""
 title = "Draft of a blog post announcing the blog"
 
 +++
+Dear FDS community ...
