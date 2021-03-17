@@ -36,7 +36,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Fair Data Society"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -92,6 +92,8 @@ disableHugoGeneratorInject = false
   # Custom footer
   # If you want, you can easily override the default footer with your own content.
   #
+  footerLeft = ' '
+  footerRight = ' '
   # footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
   # footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
 
@@ -104,7 +106,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /FairDataSociety/home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -156,12 +158,13 @@ disableHugoGeneratorInject = false
   [languages.en]
     subtitle  = "Hello Friend NG Theme"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = ''
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
     subtitle  = "Hello Friend NG Theme"
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
