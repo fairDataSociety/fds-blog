@@ -31,12 +31,10 @@ In terms of usability, the fastest explanation will be through a couple of user 
 
 * Introduce radical honesty into personal relationships without ruining the relationship — friends can tell you things you need to hear without stress.
 
-![See honest inbox in action](https://cdn-images-1.medium.com/max/2792/1*cIzfisH3_K4rwzM-8r53kA.png)
-
 {{<youtube yO8OK3QBMOs>}}
 
 ## Honest inbox is where you can receive files without surveillance, censorship or meta trails because the sender stays anonymous
->  *With honest inbox, we are filling the gap in Fairdrop’s user scenarios, enabling anybody — individuals, organisation, journalists — to easily setup (or self-host) their site for anonymously receiving files or feedback. Honest inbox is democratising whistleblowing and bringing it to everybody.*
+> *With honest inbox, we are filling the gap in Fairdrop’s user scenarios, enabling anybody — individuals, organisation, journalists — to easily setup (or self-host) their site for anonymously receiving files or feedback. Honest inbox is democratising whistleblowing and bringing it to everybody.*
 
 **Scenarios covered by Fairdrop now are:**
 1. **Quick send** — drop a file, click upload and get back a link for sharing. No account needed.
@@ -47,7 +45,7 @@ In terms of usability, the fastest explanation will be through a couple of user 
 
 Go ahead, [register your inbox at Fairdop.xyz and claim your name](https://fairdrop.xyz/) while it is still available.
 
-![](https://cdn-images-1.medium.com/max/2000/0*cjsUUZB0x47k2lly.png)
+{{< figure src="/uploads/whistle.png" title="Blow the whistle" >}}
 
 ## Talk to us!
 
