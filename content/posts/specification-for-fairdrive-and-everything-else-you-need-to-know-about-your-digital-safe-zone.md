@@ -8,12 +8,12 @@ slug = ""
 title = "Specification for Fairdrive and everything else you need to know about your digital safe zone"
 
 +++
-![](https://cdn-images-1.medium.com/max/2000/0*wJJojwucHVjy9S1p)
+
 {{< figure src="/uploads/fairdrive1.png" alt="Fairdrive" >}}
 
-The original specification is published and maintained in [**github](https://github.com/fairDataSociety/specifications)**. Fairdrive specs are work in progress and actively developed within the fairdrive.xyz [**giveth campaign](https://beta.giveth.io/campaigns/5d9466be0be6c23fee64fbda)** as part of Milestone 1 and 2.
+The original specification is published and maintained in **[github](https://github.com/fairDataSociety/specifications)**. Fairdrive specs are work in progress and actively developed within the fairdrive.xyz **[giveth campaign](https://beta.giveth.io/campaigns/5d9466be0be6c23fee64fbda)** as part of Milestone 1 and 2.
 
-[**Fairdrive is part of a new wave to end the mischievous practices of surveillance capitalism ! Show your support, go to our Giveth campaign and donate!](https://beta.giveth.io/campaigns/5d9466be0be6c23fee64fbda) Or contribute to the specification by issuing a PR.**
+**[Fairdrive is part of a new wave to end the mischievous practices of surveillance capitalism ! Show your support, go to our Giveth campaign and donate!](https://beta.giveth.io/campaigns/5d9466be0be6c23fee64fbda) Or contribute to the specification by issuing a PR.**
 
 ## Fair data
 
@@ -41,7 +41,6 @@ Fairdrive is a logical drive that will store all of the individual’s data in o
 
 * **A set of standards and guidelines covering where data is stored, how it is encoded and how it is encrypted.**
 
-![](https://cdn-images-1.medium.com/max/2836/0*uwP1yPK-BJeZUXGg)
 {{< figure src="/uploads/fairdrive2.png" alt="Fairdrive" >}}
 
 ## Storage Layer
@@ -121,9 +120,6 @@ To jumpstart the Fairdrive thought process, it is not enough that we just put do
 
 ## Functional Architecture
 
-![](https://cdn-images-1.medium.com/max/2000/0*qrIHvPEaT3mQ7Y6F)
-
-![](https://cdn-images-1.medium.com/max/3200/0*ilFiK_rLs8rkGj_E)
 {{< figure src="/uploads/fairdrive4.png" alt="Fairdrive" >}}
 
 
