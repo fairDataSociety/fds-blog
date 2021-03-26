@@ -22,4 +22,5 @@ fields:
   label: slug
 pages:
 - content/posts/draft-of-a-blog-post-announcing-the-blog.md
+- content/posts/honest-inbox-upgrade-of-fairdrop.xyz.md
 - content/posts/upload-a-website-to-swarm-with-one-click-using-fairdrop.md
