@@ -13,7 +13,8 @@ Today, we are announcing a new feature of [Fairdrop](https://fairdrop.xyz/), tha
 
 For those who just joined in, [Fairdrop.xyz](https://fairdrop.xyz/) is a free, decentralised, private and secure file transfer zero-data dapp. It is based entirely on [Fair Data Society principles](https://principles.fairdatasociety.org) and runs on [Swarm](https://swarm.ethereum.org/), [decentralised storage](https://swarm.ethereum.org/). For more info about Fairdrop, check out this [blog post](https://medium.com/fair-data-society/fairdrop-secure-private-unstoppable-file-transfer-for-the-free-world-7200f948bb32).
 
-![Use honest inbox and keep your friends.](https://cdn-images-1.medium.com/max/2000/0*CLf3CL3jFwHSlHX-.png)
+
+{{< figure src="/uploads/carlin.png" title="Blow the whistle" >}}
 
 ## **Receive honest feedback into your honest inbox**
 
@@ -53,10 +54,7 @@ We don’t have to give up our privacy and freedom just to use an app! Share you
 
 * **Drop us a message, file or photo at mailbox datafund on [Fairdrop](https://fairdrop.xyz/datafund)**
 
-* **Drop us a line in our [Riot channel](https://riot.im/app/#/group/+fairdatasociety:matrix.org)**
-
 * **Check out & donate to our [Fair Data Society DAC on Giveth](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070),**
 
-* **Read our [blog](https://blog.datafund.net/)**
+* **Read our [blog](https://blog.fairdatasociety.org/)**
 
-* **Subscribe to our [newsletter](https://datafund.io/).**
