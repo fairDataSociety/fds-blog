@@ -13,12 +13,11 @@ This year was no different. [Chaos Communication Congress](https://events.ccc.de
 
 **What is C3? And why does it matter?**
 
-/[Wikipedia:] The C3 is an annual conference organized by the [Chaos Computer Club](https://www.ccc.de/en). The congress features a variety of lectures and workshops on technical and political issues related to security, cryptography, privacy and online [freedom of speech](https://en.wikipedia.org/wiki/Freedom_of_speech). The event takes place regularly at the end of the year since 1984, with the current date and duration (27–30 December) established in 2005. It is considered one of the largest events of this kind, alongside the [DEF CON](https://en.wikipedia.org/wiki/DEF_CON) in Las Vegas.
+\[Wikipedia:\] The C3 is an annual conference organized by the [Chaos Computer Club](https://www.ccc.de/en). The congress features a variety of lectures and workshops on technical and political issues related to security, cryptography, privacy and online [freedom of speech](https://en.wikipedia.org/wiki/Freedom_of_speech). The event takes place regularly at the end of the year since 1984, with the current date and duration (27–30 December) established in 2005. It is considered one of the largest events of this kind, alongside the [DEF CON](https://en.wikipedia.org/wiki/DEF_CON) in Las Vegas.
 
-An important part of the congress are the *assemblies*, semi-open spaces with clusters of tables and internet connections for groups and individuals to collaborate and socialize in projects, workshops and hands-on talks. These assembly spaces, introduced at the 2012 meeting, combine the hack center project space and distributed group spaces of former years.
+An important part of the congress are the _assemblies_, semi-open spaces with clusters of tables and internet connections for groups and individuals to collaborate and socialize in projects, workshops and hands-on talks. These assembly spaces, introduced at the 2012 meeting, combine the hack center project space and distributed group spaces of former years.
 
 ![Entrance to 36C3](https://cdn-images-1.medium.com/max/2000/1*V5lmpe9djlsjlKHpslhqsA.jpeg)
-
 
 {{< figure src="/uploads/ccc1.jpeg" alt="CCC" >}}
 
@@ -30,7 +29,7 @@ An important part of the congress are the *assemblies*, semi-open spaces with cl
 
 CDC had a really nice line up of speakers who presented their projects in 15 min slots. There was **Scott Beibin** with his brilliant new idea called MandelBotHAB, **Alexis Roussel** had an important speech on how constitutions should change to prevent data slavery; there was **Deanna MacDonald** who spoke about privacy-related issues; **Harry Halpin** announced some big promises for the [Nym project](https://nymtech.net/) this year. **Viktor Tron **was not present at the conference, but had a live video conference presentation on [Swarm](https://swarm.ethereum.org/).
 
-![“Digital integrity is as important as physical or mental, “ an important talk by **Alexis Roussel **on how constitutions should change to prevent data slavery.](https://cdn-images-1.medium.com/max/4096/1*eamsNo83zZZXuUpA_UPVtw.jpeg)
+![“Digital integrity is as important as physical or mental, “ an important talk by ](https://cdn-images-1.medium.com/max/4096/1*eamsNo83zZZXuUpA_UPVtw.jpeg)
 {{< figure src="/uploads/ccc2.jpeg" alt="CCC" >}}
 
 We had a speech too. Gregor Žavcer talked about the [Fair Data Society](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070). He presented the organization in his own, unique way, with a ton of positive energy. The crowd learned what the Fair Data Society is and got a short update on the work that has been done since last year.
@@ -50,7 +49,7 @@ The peak of the talk was our live demo of a just 10minute-old release (please sa
 
 ![](https://cdn-images-1.medium.com/max/2000/1*tFDil5cs6S0EmShyl9ljyw.jpeg)
 
-![**Fairdrop guerilla action**](https://cdn-images-1.medium.com/max/2000/1*l0lnsT5WIQBQEEC7MhW_oA.jpeg)
+![*](https://cdn-images-1.medium.com/max/2000/1*l0lnsT5WIQBQEEC7MhW_oA.jpeg)
 
 **So, what the heck is an honest inbox?**
 
