@@ -2,15 +2,14 @@
 categories = []
 date = 2019-05-09T14:15:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "We’re ready for the Swarm Orange Summit in Madrid"
 
 +++
-Get ready, set, go!!! [**Swarm Orange Summit](https://summit.ethswarm.org/)** is coming to Madrid in two weeks. From 23–25 May, thanks to everyone at Epic Labs who put the event together, there are three days of innovative talks, coding and hanging out ahead of us. If you still don’t have tickets, [get them now](https://www.eventbrite.com/e/swarm-orange-summit-madrid-2019-tickets-57378034245?aff=ebdssbdestsearch); the event will take place at Epic Lab’s HQ, on Calle Salvatierra, 4 (4th floor).
+Get ready, set, go!!! **[Swarm Orange Summit](https://summit.ethswarm.org/)** is coming to Madrid in two weeks. From 23–25 May, thanks to everyone at Epic Labs who put the event together, there are three days of innovative talks, coding and hanging out ahead of us. If you still don’t have tickets, [get them now](https://www.eventbrite.com/e/swarm-orange-summit-madrid-2019-tickets-57378034245?aff=ebdssbdestsearch); the event will take place at Epic Lab’s HQ, on Calle Salvatierra, 4 (4th floor).
 
-![](https://cdn-images-1.medium.com/max/4340/1*TB6HtJHbwsHdk0c5I4-dNA.png)
+![](/uploads/madrid1.png)
 
 ## Our whole team will be there
 
@@ -24,7 +23,7 @@ First up will be Tadej with his presentation of multibox, the decentralized grou
 
 We’ll be following the event and will post all the highlights and summaries of talks, as well as uploading all the videos relating to the talks on Fair Data Society’s tech to our Youtube channel after the summit, so keep following us to stay up to date.
 
-![❤ The beautiful city of Madrid ❤](https://cdn-images-1.medium.com/max/2484/1*rpoSO0-flNR7qLUDAxVHEw.png)
+![❤ The beautiful city of Madrid ❤](/uploads/madrid2.png)
 
 ## See you there!
 
