@@ -22,7 +22,6 @@ fields:
   label: slug
 pages:
 - content/posts/anybody-can-be-a-whistleblower-at-ccc.md
-- content/posts/draft-of-a-blog-post-announcing-the-blog.md
 - content/posts/honest-inbox-upgrade-of-fairdrop.xyz.md
 - content/posts/how-to-a-guide-to-fairdrop.md
 - content/posts/specification-for-fairdrive-and-everything-else-you-need-to-know-about-your-digital-safe-zone.md
