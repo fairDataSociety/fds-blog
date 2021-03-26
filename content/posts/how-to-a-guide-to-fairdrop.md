@@ -8,7 +8,6 @@ slug = ""
 title = "How to: A guide to Fairdrop"
 
 +++
-
 Fairdrop is a file transfer dapp and the first blockchain dapp by Fair Data Society based entirely on the [Fair Data Society principles](https://docs.google.com/document/d/14-DM3M-cNCrq2Cn_7J8rRawhaoHOhlyXRPSQZ2thiuc/edit). Because of these principles, it doesn’t collect any personal data, while providing a smooth user experience. It offers a 256-bit ECDSA signature algorithm by default, doesn’t run on any central server, is fault tolerant, censorship resistant, DDOS resistant and has zero downtime. Nobody but you can know what you send, not even us.
 
 Fairdrop was made with total respect for the individual’s privacy in mind. And for you to get the most out of Fairdrop, we’ve put together a graphic and easy-to-understand guide on how to use it. There are **two ways **you can send a file. Here we go:
@@ -20,6 +19,8 @@ Fairdrop was made with total respect for the individual’s privacy in mind. And
 To send files with Fairdrop both you and the recipient must have a Fairdrop mailbox. To create one click on the menu icon in the upper right corner. Choose your name and password and hit “Add Mailbox”. Wait a few seconds until your mailbox is created.
 
 ![Click the screenshot above to see the “how to” video](https://cdn-images-1.medium.com/max/2564/1*ZAqc0uLDIZbjHrpbxeeqtw.png)
+
+{{<youtube YEMG5y0esAI>}}
 
 **Step 2: Upload and sending a file**
 
