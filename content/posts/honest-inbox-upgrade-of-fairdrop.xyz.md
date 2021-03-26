@@ -1,5 +1,5 @@
 +++
-categories = ["Whisleblower", "Fairdrop", "Privacy"]
+categories = ["Whistleblower", "Fairdrop", "Privacy"]
 date = 2020-01-24T13:00:00Z
 description = ""
 keywords = []
