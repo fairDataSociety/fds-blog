@@ -14,7 +14,7 @@ Today, we are announcing a new feature of [Fairdrop](https://fairdrop.xyz/), tha
 For those who just joined in, [Fairdrop.xyz](https://fairdrop.xyz/) is a free, decentralised, private and secure file transfer zero-data dapp. It is based entirely on [Fair Data Society principles](https://principles.fairdatasociety.org) and runs on [Swarm](https://swarm.ethereum.org/), [decentralised storage](https://swarm.ethereum.org/). For more info about Fairdrop, check out this [blog post](https://medium.com/fair-data-society/fairdrop-secure-private-unstoppable-file-transfer-for-the-free-world-7200f948bb32).
 
 
-{{< figure src="/uploads/carlin.png" title="Blow the whistle" >}}
+{{< figure src="/uploads/carlin.png" alt="Blow the whistle" >}}
 
 ## **Receive honest feedback into your honest inbox**
 
@@ -46,7 +46,7 @@ In terms of usability, the fastest explanation will be through a couple of user 
 
 Go ahead, [register your inbox at Fairdop.xyz and claim your name](https://fairdrop.xyz/) while it is still available.
 
-{{< figure src="/uploads/whistle.png" title="Blow the whistle" >}}
+{{< figure src="/uploads/whistle.png" alt="Blow the whistle" >}}
 
 ## Talk to us!
 
