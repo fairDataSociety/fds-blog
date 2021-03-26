@@ -17,8 +17,6 @@ This year was no different. [Chaos Communication Congress](https://events.ccc.de
 
 An important part of the congress are the _assemblies_, semi-open spaces with clusters of tables and internet connections for groups and individuals to collaborate and socialize in projects, workshops and hands-on talks. These assembly spaces, introduced at the 2012 meeting, combine the hack center project space and distributed group spaces of former years.
 
-![Entrance to 36C3](https://cdn-images-1.medium.com/max/2000/1*V5lmpe9djlsjlKHpslhqsA.jpeg)
-
 {{< figure src="/uploads/ccc1.jpeg" alt="CCC" >}}
 
 **The Critical Decentralization Cluster is the crypto place to be at CCC**
@@ -29,27 +27,20 @@ An important part of the congress are the _assemblies_, semi-open spaces with cl
 
 CDC had a really nice line up of speakers who presented their projects in 15 min slots. There was **Scott Beibin** with his brilliant new idea called MandelBotHAB, **Alexis Roussel** had an important speech on how constitutions should change to prevent data slavery; there was **Deanna MacDonald** who spoke about privacy-related issues; **Harry Halpin** announced some big promises for the [Nym project](https://nymtech.net/) this year. **Viktor Tron **was not present at the conference, but had a live video conference presentation on [Swarm](https://swarm.ethereum.org/).
 
-![“Digital integrity is as important as physical or mental, “ an important talk by ](https://cdn-images-1.medium.com/max/4096/1*eamsNo83zZZXuUpA_UPVtw.jpeg)
 {{< figure src="/uploads/ccc2.jpeg" alt="CCC" >}}
 
 We had a speech too. Gregor Žavcer talked about the [Fair Data Society](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070). He presented the organization in his own, unique way, with a ton of positive energy. The crowd learned what the Fair Data Society is and got a short update on the work that has been done since last year.
 
 The peak of the talk was our live demo of a just 10minute-old release (please say nothing) that was tested for the first time live at 36C3. Despite Gregor’s sweaty hands, the tremble in his voice and the unstable internet connection, he had the guts to test the new release in front of all the people and the cameras transmitting his talk live over the internet. We all prayed with him that it would all go OK, but the gods of live demos favor the brave and the demo went just fine.
 
-**See Gregor’s talk & the live demo on the video here below:**
+**See Gregor’s talk & the live demo on the video here below *starts at 7:11):**
 
-![Click the image to watch the video presentation](https://cdn-images-1.medium.com/max/3056/0*cgX6-82InpskwfuA)
+{{<youtube mc51zyflpa8>}}
 
 **We did a nice little guerilla action and hung some posters in the hallways of the congress**
-
-![](https://cdn-images-1.medium.com/max/2000/1*IwSV-UYko60eLP-Ckm_VQQ.jpeg)
 {{< figure src="/uploads/ccc3.jpeg" alt="CCC" >}}
 {{< figure src="/uploads/ccc4.jpeg" alt="CCC" >}}
 {{< figure src="/uploads/ccc5.jpeg" alt="CCC" >}}
-
-![](https://cdn-images-1.medium.com/max/2000/1*tFDil5cs6S0EmShyl9ljyw.jpeg)
-
-![*](https://cdn-images-1.medium.com/max/2000/1*l0lnsT5WIQBQEEC7MhW_oA.jpeg)
 
 **So, what the heck is an honest inbox?**
 
@@ -63,6 +54,5 @@ All in all, 36C3 was a great experience. We learned a lot. We met some really ni
 
 **FOLLOW US:**
 
-[**Email](mailto:info@datafund.io)
-[Twitter](https://twitter.com/DataFundProject)
-[Telegram](https://t.me/DataFund)**
+[Email](mailto:info@fairdatasociety.org)
+[Twitter](https://twitter.com/FairDataSociety)
