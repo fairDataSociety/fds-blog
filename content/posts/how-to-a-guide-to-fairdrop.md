@@ -2,7 +2,6 @@
 categories = []
 date = 2019-03-31T12:00:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "How to: A guide to Fairdrop"
@@ -24,8 +23,7 @@ To send files with Fairdrop both you and the recipient must have a Fairdrop mail
 
 Now that you have a mailbox, click the left upper corner menu icon and choose “Send” (you can also choose to just store a file or send it unencrypted with the quick function). Choose a file you want to send (there’s currently a 5 MB limit), wait a few seconds until you’re prompted to enter a recipient. Type in the recipient’s mailbox, hit “Send” and “Encrypt and Send” again. You’re done!
 
-![Click the screenshot above to see the “how to” video](https://cdn-images-1.medium.com/max/2556/1*sLsxjVquZHOqUPcbrkphQg.png)
-{{<youtube fl4Vx0qxR>}}
+{{<youtube fl4Vx0qxR-g>}}
 
 ## Way №2
 
@@ -35,7 +33,6 @@ You can also upload a file directly into the interface. You can choose either th
 
 Let’s say you drag and drop the file and choose the encrypted option. You will be prompted to create a mailbox (or choose an existing one) and the recipient. Again, choose a mailbox name and password and enter the recipient. Hit “Create Mailbox and Send” and wait a few seconds
 
-![Click the screenshot above to see the “how to” video](https://cdn-images-1.medium.com/max/2560/1*w3y5V6OZKV5Qm_ZJuAU5Rw.png)
 {{<youtube NkDAg7yjKVs>}}
 
 **Step 2: Sending the file**
@@ -46,7 +43,6 @@ After that just hit the “Encrypt and Send” to send files, wait a couple of s
 
 This option will send an unencrypted file. Actually, it will store the file and provide the download link. Just drag & drop the file, choose “Send in a quick way” and hit “Send Unencrypted”. After a few seconds a download link will be generated, which you can choose to share with anyone you like. That’s it!
 
-![Click the screenshot above to see the “how to” video](https://cdn-images-1.medium.com/max/2554/1*TxT00oKza5ywWk8JLDqfTw.png)
 
 {{<youtube z1vp1CYu31k>}}
 ## Exporting and Importing mailboxes
@@ -55,13 +51,11 @@ You can also export your mailbox to your computer so you won’t be prompted to 
 
 **How to export your mailbox**
 
-![Click the screenshot above to see the “how to export your mailbox” video](https://cdn-images-1.medium.com/max/2554/1*F1iZYahuBO2JZZ6TQGZSqQ.png)
 {{<youtube YUm3x-XNMq0>}}
 
 
 **How to import your mailbox**
 
-![Click the screenshot above to see the “how to import your mailbox” video](https://cdn-images-1.medium.com/max/2550/1*wTbqI1TgjSlmFe4BnmrKUA.png)
 {{<youtube V8Q5dUm4B6o>}}
 **Try Fairdrop**
 
