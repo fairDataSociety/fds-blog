@@ -23,7 +23,7 @@ First up will be Tadej with his presentation of multibox, the decentralized grou
 
 We’ll be following the event and will post all the highlights and summaries of talks, as well as uploading all the videos relating to the talks on Fair Data Society’s tech to our Youtube channel after the summit, so keep following us to stay up to date.
 
-![❤ The beautiful city of Madrid ❤](/uploads/madrid2.png)
+![](/uploads/madrid2.png)
 
 ## See you there!
 
