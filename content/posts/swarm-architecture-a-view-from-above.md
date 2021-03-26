@@ -2,7 +2,6 @@
 categories = ["Swarm"]
 date = 2019-06-26T12:00:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "Swarm architecture — a view from above"
