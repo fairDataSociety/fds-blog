@@ -195,14 +195,12 @@ For programmatic access to Fairdrive, an SDK called fds.js is available. Fds.js 
 
 Next are Fairdrive UI applications; a web-app and a Desktop app. The webapp is hosted on Swarm and is available at fairdrive.xyz. Individuals can use their identity to log into the app and use it from a browser. There is also a native app for popular operating systems which can be installed and configured to continuously run in the background. This architecture is similar to that of Web 2.0 apps like Dropbox.
 
-![](https://cdn-images-1.medium.com/max/3200/0*dsN79AH1iJpJ171w)
 {{< figure src="/uploads/fairdrive5.png" alt="Fairdrive" >}}
 
 ## Fair Data Society-compliant apps
 
 Applications that intend to use Fairdrive should be Fair Data Society-compliant. By which we mean that the application should only store the individual’s data in Fairdrive and nowhere else. In the graphics below are some of the deployment models that the applications can use today.
 
-![](https://cdn-images-1.medium.com/max/3200/0*m3mQ2UXrLUfj9xi2)
 {{< figure src="/uploads/fairdrive6.png" alt="Fairdrive" >}}
 
 **API-based** deployment model is similar to Web 2.0 mode. In this model, the application connects to Faidrive using the API exposed by a Fair Data Society-owned centralised server (boxes not in red border). This server runs a node application that exposes the same API that our SDK provides. This server also hosts a Swarm node which is used by the node application. Even though this method is not properly decentralised and does not align with Fair Data Society principles, we have exposed this API to easily test an application using our SDK. This model is only recommended for testing and not for production.
@@ -221,14 +219,10 @@ For example: in the screenshot below you can see the directory structure on the 
 
 This app can be used to upload or download files from/to the individual’s local file system. Individuals can also share their Fairdrive-based files with other individuals or applications. Apart from managing data, this application also has a wallet to show the details of storage-related payments — either incoming or outgoing.
 
-![](https://cdn-images-1.medium.com/max/2000/0*HGXYVpu0EShLPc5X)
-
-![](https://cdn-images-1.medium.com/max/3200/0*W__ovyg0sM42v5C9)
 {{< figure src="/uploads/fairdrive7.png" alt="Fairdrive" >}}
 
 ### Fairdrop ([fairdrop.xyz](https://fairdrop.xyz/))
 
-![](https://cdn-images-1.medium.com/max/3200/0*fvSj-sMkr9CG1w7C)
 {{< figure src="/uploads/fairdrive8.png" alt="Fairdrive" >}}
 
 [**Fairdrop](https://medium.com/fair-data-society/how-to-a-guide-to-fairdrop-794f44e50ae2)** is a fair, secure and unstoppable file transfer application, built with the Fairdrive SDK. It is [**Datafund’s ](http://datafund.io/)**first contribution to Fair Data Society and an original web application, hosted in Swarm. Individuals can create an account and will be assigned a mailbox. The mailbox contains 2 folders, “Received” and “Sent”. Individuals can share a file from their local filesystem with another individual. These files will then be encrypted and sent to the respective individual’s “Received” folder. The sent files will be shown in the “Sent” folder. If anyone shares a file with you, you would see it in the “Received” folder for download to local file system. More about the application [here](https://blog.datafund.net/fairdrop-secure-private-unstoppable-file-transfer-for-the-free-world-f1a39adbdeab).
@@ -237,5 +231,4 @@ This app can be used to upload or download files from/to the individual’s loca
 
 Chattie is an example chat app built to show how data can be shared between two individuals using Fairdrive. You can use the same account you created in the Fairdrive webapp to login here. A logged-in individual can start a chat with another individual. The messages he/she creates are stored in the current individual’s Fairdrive and are also shared with the individual with whom he/she chats. This ensures that the Chattie application can access the chat messages of the current individual and ones typed by the receiving individual.
 
-![](https://cdn-images-1.medium.com/max/3052/0*Yus1sr8hx9WvX3yo)
 {{< figure src="/uploads/fairdrive9.png" alt="Fairdrive" >}}
