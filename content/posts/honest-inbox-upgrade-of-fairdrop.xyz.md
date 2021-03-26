@@ -33,6 +33,8 @@ In terms of usability, the fastest explanation will be through a couple of user 
 
 ![See honest inbox in action](https://cdn-images-1.medium.com/max/2792/1*cIzfisH3_K4rwzM-8r53kA.png)
 
+{{<youtube yO8OK3QBMOs>}}
+
 ## Honest inbox is where you can receive files without surveillance, censorship or meta trails because the sender stays anonymous
 >  *With honest inbox, we are filling the gap in Fairdrop’s user scenarios, enabling anybody — individuals, organisation, journalists — to easily setup (or self-host) their site for anonymously receiving files or feedback. Honest inbox is democratising whistleblowing and bringing it to everybody.*
 
