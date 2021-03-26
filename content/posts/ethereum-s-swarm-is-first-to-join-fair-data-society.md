@@ -2,7 +2,6 @@
 categories = ["Swarm"]
 date = 2019-03-27T18:56:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "Ethereum’s Swarm is first to join Fair Data Society"
@@ -34,6 +33,6 @@ One we’re particularly excited about is building the capacity to send 100 GB f
 
 The time of one-sided exploitative practices of Big Tech is slowly but surely running out.
 
-If you and your project are building something that you believe will benefit the society, reach out to us on [**Riot](https://matrix.to/#/!XYPdaPcJIQlCEpDqnC:matrix.org?via=matrix.org&via=t2bot.io) **or support the campaigns in our [**DAC](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070)**.
+If you and your project are building something that you believe will benefit the society, reach out to us on **[Riot](https://matrix.to/#/!XYPdaPcJIQlCEpDqnC:matrix.org?via=matrix.org&via=t2bot.io)** or support the campaigns in our **[DAC](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070)**.
 
 There’s a lot of work to be done and together we can bring about this change faster and to the benefit of all. Let us proceed together apace!
