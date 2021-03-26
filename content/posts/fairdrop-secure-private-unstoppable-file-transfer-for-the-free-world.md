@@ -7,7 +7,8 @@ slug = ""
 title = "Fairdrop: Secure, private, unstoppable file transfer for the free world"
 
 +++
-*This blog was first published on the [Datafund blog](https://blog.datafund.net/).*
+_This blog was first published on the_ [_Datafund blog_](https://blog.datafund.net/)_._
+
 > “Awareness requires a rupture with the world we take for granted; then old categories of experience are called into question and revised.” Shoshana Zuboff
 
 ![Try Fairdrop now, click the image](/uploads/fairdrop1.jpeg)
@@ -20,13 +21,11 @@ Fortunately, that is not the case. We are starting to see the value of online pr
 
 ## Fairdrop, the first dapp based on Fair Data Society principles
 
-We want to be among the contributors to this new paradigm. That’s why we would like to **present to you the Fairdrop file transfer dapp**. It’s **the first blockchain dapp by Fair Data Society based entirely on the [Fair Data Society principles](https://principles.fairdatasociety.org).** These principles make **privacy its №1 feature** without sacrificing user experience. Fairdrop is not just a theoretical concept but a concrete decentralized service that wants to take its centralized counterparts head on.
+We want to be among the contributors to this new paradigm. That’s why we would like to **present to you the Fairdrop file transfer dapp**. It’s **the first blockchain dapp by Fair Data Society based entirely on the** [**Fair Data Society principles**](https://principles.fairdatasociety.org)**.** These principles make **privacy its №1 feature** without sacrificing user experience. Fairdrop is not just a theoretical concept but a concrete decentralized service that wants to take its centralized counterparts head on.
 
-***Watch a quick video tutorial below:***
+**_Watch a quick video tutorial below:_**
 
- <iframe src="https://medium.com/media/4c0c913bce59deed7d5b6a6e7f1bcf5e" frameborder=0></iframe>
- 
- {{<youtube STeVwI6xEUU>}}
+{{<youtube STeVwI6xEUU>}}
 
 ## No privacy policy, elegant user experience
 
@@ -37,11 +36,8 @@ We were conditioned to believe that privacy is the price to pay for convenience.
 Fairdrop runs on the Ethereum network and Swarm’s decentralized storage system. This makes it:
 
 * **fault tolerant**,
-
 * **censorship-resistant,**
-
 * **DDOS-resistant**
-
 * and **with zero downtime**.
 
 At the same time it comes with **a built-in 256-bit ECDSA** signature algorithm and the **ability to send files of up to 5 MB** in size. It also comes with **four key functionalities**.
@@ -69,13 +65,9 @@ The export & import feature promises some of the most interesting capabilities i
 We would like to point out that Fairdrop is still in an alpha development stage. This means that we will continue to hone and develop it. Some really neat upgrades are planned in collaboration with the Swarm team, but in general our plans for the next development stage will focus on:
 
 * **Javascript library so devs can build their own dapps,**
-
 * **the ability to send very large files,**
-
 * **improving the UX,**
-
 * **security review and improvements,**
-
 * **new features.**
 
 Fairdrop is free to use and open-source so give it a spin, take a look at the code, use it and let us know what you think. Or participate in our bug bounty.
@@ -90,7 +82,5 @@ Fairdrop is free to use and open-source so give it a spin, take a look at the co
 
 We don’t have to give up our privacy and freedom just to use an app! Share your thoughts with us, we would love to hear what you have to say, or start following us at the links below:
 
-* **Drop us a message, file or photo at mailbox datafund on [Fairdrop](https://fairdrop.xyz/)**
-
-* **Check out & donate to our [Fair Data Society DAC on Giveth](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070),**
-
+* **Drop us a message, file or photo at mailbox datafund on** [**Fairdrop**](https://fairdrop.xyz/)
+* **Check out & donate to our** [**Fair Data Society DAC on Giveth**](https://beta.giveth.io/dacs/5c34b2e746d9c67925654070)**,**
