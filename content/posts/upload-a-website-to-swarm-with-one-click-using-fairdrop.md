@@ -2,7 +2,6 @@
 categories = ["Privacy", "Fairdrop"]
 date = 2020-02-25T23:00:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "Upload a website to Swarm with one click using Fairdrop"
