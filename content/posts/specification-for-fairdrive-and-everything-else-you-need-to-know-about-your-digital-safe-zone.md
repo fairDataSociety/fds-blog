@@ -2,7 +2,6 @@
 categories = []
 date = 2019-10-04T13:00:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "Specification for Fairdrive and everything else you need to know about your digital safe zone"
@@ -97,7 +96,6 @@ Following are some of the use cases of Fairdrive.
 
 There are two major actors that use Fairdrive. One is the individual himself and the other are the applications that he/she uses.
 
-![](https://cdn-images-1.medium.com/max/3200/0*JFaRMn8jvFhzFh-2)
 {{< figure src="/uploads/fairdrive3.png" alt="Fairdrive" >}}
 
 ## User-generated data
