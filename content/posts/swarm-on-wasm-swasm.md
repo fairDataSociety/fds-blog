@@ -2,13 +2,11 @@
 categories = []
 date = 2019-06-12T16:05:00Z
 description = ""
-draft = true
 keywords = []
 slug = ""
 title = "Swarm on WASM — SWASM"
 
 +++
-![](https://cdn-images-1.medium.com/max/3376/1*qLW2OBmxgTCZF71Odx24kA.png)
 {{< figure src="/uploads/swasm1.png" alt="Swarm + WASM = SWASM" >}}
 ***This blog post was originally written and published by Mohammed Zahoor.***
 
@@ -20,7 +18,6 @@ We see enabling a wider use of Swarm and consequently of a [**zero-data approach
 
 Today, Web 3.0 dapps can already store user data, user state or the dapp code itself in Swarm. The issue that arises here is that many of them are still using Web 2.0 methods (like http or https connections) to connect to a central Swarm gateway. It is similar to how Ethereum dapps use Infura to access the blockchain.
 
-![](https://cdn-images-1.medium.com/max/3464/1*mr93RxdTRoDPcAECp2KdqQ.png)
 {{< figure src="/uploads/swasm2.png" alt="Swarm + WASM = SWASM" >}}
 
 Fortunately, there is a better way to enable dapps to use Swarm in a more decentralized manner. One way to achieve this is to rewrite Swarm in a web-client-friendly languages likes JavaScript. Another way is to wrap the Swarm code in WebAssembly (WASM), so that it can be used on the client side. These methods get rid of the last mile Web 2.0 access and help dapps to become truly decentralized in nature.
@@ -33,7 +30,7 @@ Pushing Swarm to client side also means we should be light on storage and bandwi
 
 ### 1) Swarm Network Layer WASM
 
-![](https://cdn-images-1.medium.com/max/2344/1*2jof-psHyu-KDy0WLxp9jg.png)
+
 {{< figure src="/uploads/swasm3.png" alt="Swarm + WASM = SWASM" >}}
 
 BZZ is the main Swarm protocol which takes care of syncing the chunks across the network. The Swarm overlay kademlia, or Hive as it’s called in Swarm code, is the one responsible for routing packets in the Swarm network. This overlay depends on the lower level devp2p protocol to maintain an encrypted channel to each of the peers of a given Swarm node.
@@ -42,14 +39,14 @@ Hive is the entry point to the Swarm world. If this layer is packaged as a separ
 
 ### 2) Distributed Pre-Image Archive (DPA) WASM
 
-![](https://cdn-images-1.medium.com/max/2696/1*5g2ADO5PXUokN7MlcxHe0w.png)
+
 {{< figure src="/uploads/swasm4.png" alt="Swarm + WASM = SWASM" >}}
 
 DPA takes care of the functions like chunking files to smaller pieces and encryption. This functionality is needed only for dapps which need to upload files to Swarm. In a full Swarm node the DPA also has a local store, which stores the chunks close to this node. But for most of the client-side functions, the DPA should implement light storage as recommended in the [**Swarm Light Client](https://github.com/ethersphere/swarm/issues/458)** proposal. This WASM module should be included in dapps that require the storing of user data or user state in Swarm. If a dapp decides to to use this WASM module, the module’s input should come from the dapp and then send the encrypted chunks to the first — Swarm Network Layer WASM — module.
 
 ### 3) Postal Service over Swarm (PSS) WASM
 
-![](https://cdn-images-1.medium.com/max/2584/1*zDxdPTD_o92nA1MY2Sqr3A.png)
+
 {{< figure src="/uploads/swasm5.png" alt="Swarm + WASM = SWASM" >}}
 
 Postal Service over Swarm is Swarm’s communication module. Dapps which need a decentralized, censorship-resistant way to communicate between themselves are the prime users of this module. For example: chat applications. PSS uses Swarm kademlia routing to find the destination of the message. It also takes care of encryption and key management.
@@ -85,8 +82,6 @@ The development of these four modules is an important step for the adoption of d
 That’s why Datafund’s team have decided to make the development of these modules their next contribution to Fair Data Society and the modules have been included in our roadmap as well. We look forward tackling this challenge, creating a better and more private Web for everyone.
 
 ## Join the discussion:
-
-### [Fair Data Society Riot](https://matrix.to/#/!XYPdaPcJIQlCEpDqnC:matrix.org?via=matrix.org&via=t2bot.io)
 
 ### [Fair Data Society Twitter](https://twitter.com/FairDataSociety)
 
