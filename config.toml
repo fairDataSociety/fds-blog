@@ -167,11 +167,13 @@ disableHugoGeneratorInject = false
     #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
+[[menu.main]]
+    identifier = "principles"
+    name       = "Principles"
+    url        = "https://principles.fairdatasociety.org/"
+    weight = 1
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
-#   [[menu.main]]
-#     identifier = "posts"
-#     name       = "Posts"
-#     url        = "posts/"
+    weight = 0
