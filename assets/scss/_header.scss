@@ -1,5 +1,7 @@
 .header {
-  background: $light-background-header;
+  //background: $light-background-header;
+  //background: #8cd1a896;
+  background: linear-gradient(to right, rgba(140,209,168,0.588235), rgba(140, 209, 168, 0.3));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +46,7 @@
 
 .unselectable {
   user-select: none;
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }

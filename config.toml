@@ -108,6 +108,7 @@ disableHugoGeneratorInject = false
     logoMark     = ">"
     logoText     = "$ cd /FairDataSociety/home/"
     logoHomeLink = "/"
+    path = "/FDS_logo_transparent.png"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.

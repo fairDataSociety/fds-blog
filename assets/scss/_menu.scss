@@ -1,6 +1,6 @@
 .menu {
-  background: $light-background-header;
   z-index: 9999;
+  text-transform: uppercase;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -13,6 +13,7 @@
     border: none;
     margin: 0;
     padding: 10px;
+    background: $light-background-header;
   }
 
   &__inner {

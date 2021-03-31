@@ -357,3 +357,10 @@ hr {
 .highlight {
   margin: 30px auto;
 }
+
+.title-replacement{
+  margin-top: 60px;
+  @media #{$media-size-phone} {
+    margin-top: 0;
+  }
+}

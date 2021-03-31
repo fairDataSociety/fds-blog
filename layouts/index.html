@@ -5,12 +5,13 @@
 {{ define "main" }}
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
-    <a href="">
-        <img src="fds_logo.jpeg" alt="Fair Data Society" style="max-width: 200px;">
-    </a>
-    <h1>{{ .Title }}</h1>
-</div>
+<!--<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">-->
+<!--    <a href="">-->
+<!--        <img src="fds_logo.jpeg" alt="Fair Data Society" style="max-width: 200px;">-->
+<!--    </a>-->
+<!--    <h1>{{ .Title }}</h1>-->
+<!--</div>-->
+<div class="title-replacement"></div>
 
 <main class="posts">
 
