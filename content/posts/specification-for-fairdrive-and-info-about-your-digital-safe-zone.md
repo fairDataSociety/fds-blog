@@ -4,7 +4,7 @@ date = 2019-10-04T13:00:00Z
 description = ""
 keywords = []
 slug = ""
-title = "Specification for Fairdrive and info about your digital safe zone"
+title = "Specification for Fairdrive and everything else you need to know about your digital safe zone"
 
 +++
 {{< figure src="/uploads/fairdrive1.png" alt="Fairdrive" >}}
