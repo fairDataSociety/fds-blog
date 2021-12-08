@@ -24,6 +24,6 @@ jobs:
     - name: Install dependencies
       run: cd scripts && yarn
     - name: Upload to swarm
-      run: node upload-blog-to-swarm.js > upload-out.txt
+      run: cd scripts && node upload-blog-to-swarm.js > upload-out.txt
       env:
         CI: false
