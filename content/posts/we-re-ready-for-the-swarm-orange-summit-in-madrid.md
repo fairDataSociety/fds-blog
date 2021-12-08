@@ -7,7 +7,7 @@ slug = ""
 title = "We’re ready for the Swarm Orange Summit in Madrid"
 
 +++
-Get ready, set, go!!! [**Swarm Orange Summit**](https://summit.ethswarm.org/) is coming to Madrid in two weeks. From 23–25 May, thanks to everyone at Epic Labs who put the event together, there are three days of innovative talks, coding and hanging out ahead of us. If you still don’t have tickets, [get them now](https://www.eventbrite.com/e/swarm-orange-summit-madrid-2019-tickets-57378034245?aff=ebdssbdestsearch); the event will take place at Epic Lab’s HQ, on Calle Salvatierra, 4 (4th floor)...
+Get ready, set, go!!! [**Swarm Orange Summit**](https://summit.ethswarm.org/) is coming to Madrid in two weeks. From 23–25 May, thanks to everyone at Epic Labs who put the event together, there are three days of innovative talks, coding and hanging out ahead of us. If you still don’t have tickets, [get them now](https://www.eventbrite.com/e/swarm-orange-summit-madrid-2019-tickets-57378034245?aff=ebdssbdestsearch); the event will take place at Epic Lab’s HQ, on Calle Salvatierra, 4 (4th floor).
 
 ![](/uploads/madrid1.png)
 
