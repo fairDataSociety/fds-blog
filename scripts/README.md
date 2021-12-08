@@ -8,3 +8,9 @@ Create secret.txt with secret text from GitHub repository.
 * Configure your server to accept POST requests
 * Install swarm bee client
 * Install Gohugo for blog building
+
+
+## Create stamp
+
+`swarm-cli stamp buy --depth 20 --amount 1000000000`
+

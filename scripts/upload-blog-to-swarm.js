@@ -1,8 +1,10 @@
 const {Bee} = require('@ethersphere/bee-js');
 const fs = require('fs');
 
-const gatewayBatchId = '0000000000000000000000000000000000000000000000000000000000000000';
-const bee = new Bee('https://bee-0.gateway.ethswarm.org');
+// const gatewayBatchId = '0000000000000000000000000000000000000000000000000000000000000000';
+// const bee = new Bee('https://bee-0.gateway.ethswarm.org');
+const gatewayBatchId = 'd08d14fc9c685ee78ad71b5b352443c68f135991cb9fea24a4598d458ad2345b';
+const bee = new Bee('http://localhost:1633');
 const walletPath = '/home/ubuntu/fds-blog-credentials/wallet.json';
 
 async function initFeed() {
