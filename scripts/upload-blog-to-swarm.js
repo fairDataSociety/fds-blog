@@ -3,9 +3,10 @@ const fs = require('fs');
 
 const gatewayBatchId = '0000000000000000000000000000000000000000000000000000000000000000';
 const bee = new Bee('https://bee-0.gateway.ethswarm.org');
+const walletPath = '/home/ubuntu/fds-blog-credentials/wallet.json';
 
 async function initFeed() {
-    const wallet = JSON.parse(fs.readFileSync('./wallet.json', {encoding: 'utf-8'}));
+    const wallet = JSON.parse(fs.readFileSync(walletPath, {encoding: 'utf-8'}));
     let topic = bee.makeFeedTopic('fds_blog');
     let feedManifest = await bee.createFeedManifest(gatewayBatchId, 'sequence', topic, wallet.address);
     console.log('topic', topic);
@@ -15,7 +16,7 @@ async function initFeed() {
 
 async function updateFeed(reference) {
     console.log('updateFeed start');
-    const wallet = JSON.parse(fs.readFileSync('./wallet.json', {encoding: 'utf-8'}));
+    const wallet = JSON.parse(fs.readFileSync(walletPath, {encoding: 'utf-8'}));
     console.log('Wallet found');
     // let bee = new Bee('http://localhost:1633');
     let topic = bee.makeFeedTopic('fds_blog');
