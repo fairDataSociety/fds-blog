@@ -21,7 +21,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build with hugo
       run: hugo
+    - name: Install dependencies
+      run: cd scripts && yarn
     - name: Upload to swarm
-      run: cd scripts && node upload-blog-to-swarm.js > upload-out.txt
+      run: node upload-blog-to-swarm.js > upload-out.txt
       env:
         CI: false
