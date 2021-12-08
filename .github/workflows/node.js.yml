@@ -24,6 +24,6 @@ jobs:
     - name: Install dependencies
       run: cd scripts && yarn
     - name: Upload to swarm
-      run: cd scripts && node upload-blog-to-swarm.js > upload-out.txt
+      run: cd scripts && node upload-blog-to-swarm.js > upload-out.txt && rm -r /home/ubuntu/www/fds-blog && mkdir /home/ubuntu/www/fds-blog && cp -r ../public/* /home/ubuntu/www/fds-blog 
       env:
         CI: false
