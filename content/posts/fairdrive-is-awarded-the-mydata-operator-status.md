@@ -20,7 +20,7 @@ By acknowledging that personal data is owned by the individual, FDS has been abl
 
 These values and rules have shaped Fairdrive’s design as well as its functionality to make it the product it is today.
 
-![](https://lh3.googleusercontent.com/HpMcEdbt73i-blZWWp8zbV8fBTnVcGnnCfTxNNcRg_WdbcuBs3tJUBVbOWAjLQE0rMVZVnkht1NckPWv5f3HFPRd0dUoMZ1Erl4pGhfZJu7LamVQOq9LGeE8UR6OK-1c4cTaWZQO =1089.3257142857142x360.3092980041767)
+[![](/uploads/mydata-operators-2021.png)](https://mydata.org/wp-content/uploads/sites/5/2020/04/Understanding-Mydata-Operators-pages.pdf "MyData operators principles")
 
 ### Fairdrive
 
