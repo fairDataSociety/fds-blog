@@ -2,7 +2,6 @@
 categories = []
 date = 2021-12-16T23:00:00Z
 description = ""
-draft = true
 keywords = []
 slug = "fairdrive-mydata-award"
 title = "Fairdrive is Awarded the MyData Operator Status! "
