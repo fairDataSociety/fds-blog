@@ -1,7 +1,8 @@
 +++
 categories = ["protocol"]
-date = 2022-01-25T17:00:00Z
+date = 2022-01-24T17:00:00Z
 description = ""
+draft = true
 keywords = ["fair data society", "fair data society principles", "fair data", "protocol"]
 slug = "fair-data-protocol"
 title = "Fair Data Protocol: A roadmap towards data sovereignty and personal freedom"
