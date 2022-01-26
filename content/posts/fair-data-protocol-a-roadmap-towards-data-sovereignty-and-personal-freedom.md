@@ -26,6 +26,8 @@ The general flow of the roadmap is such that for each of the 6 milestones, speci
 
 The specific areas the Fair Data Protocol will cover are:
 
+![](/uploads/screenshot-2022-01-26-at-15-20-14.png)
+
 We invite you to take a more detailed look at the Fair Data Protocol roadmap in the Fairdrive Improvement Proposals repo: [https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md "https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md")
 
 Milestone I, Review, will cover the review of currently used data structures and business logic to come up with a proposal for data structures, preprocessor library and a feeds library.
