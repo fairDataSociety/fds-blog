@@ -58,10 +58,16 @@ I will giving a demo of freezr at the [We are Millions](https://www.wearemillion
 
 ***
 
-  
 This post is cross-posted also at: TODO SALMAN PLEASE ADD LINK
 
 ***
 
-TODO:   
-MIHA PLEASE ADD LINKS / INFO AS NEEDED 
+# **Join the FDS Community**
+
+* Fair Data Society [**website**](https://fairdatasociety.org/).
+* Read the [**Fair Data Society principles**](https://principles.fairdatasociety.org/).
+* Fairdrive [**website**](https://fairdrive.fairdatasociety.org/).
+* Follow us on [**Twitter**](https://twitter.com/fairdatasociety)**.**
+* Join our discussions at [**Discord**](https://discord.gg/uBcAueYc)**.**
+* Please feel free to reach out via **email**: [**info@fairdatasociety.org**](mailto:info@fairdatasociety.org)
+* Sign up for our **newsletter**! [**Subscribe here**](https://fairdatasociety.org/)**.**
