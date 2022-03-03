@@ -55,6 +55,5 @@ Fair Data Society is incubated under [Swarm](https://ethswarm.org) and the Fair 
 * Read the [**Fair Data Society principles**](https://principles.fairdatasociety.org/).
 * Fairdrive [**website**](https://fairdrive.fairdatasociety.org/).
 * Follow us on [**Twitter**](https://twitter.com/fairdatasociety)**.**
-* Join our discussions at [**Discord**](https://discord.gg/uBcAueYc)**.**
+* Join our discussions at [**Discord**](https://discord.com/invite/uBcAueYc)**.**
 * Please feel free to reach out via **email**: [**info@fairdatasociety.org**](mailto:info@fairdatasociety.org)
-* Sign up for our **newsletter**! [**Subscribe here**](https://fairdatasociety.org/)**.**
