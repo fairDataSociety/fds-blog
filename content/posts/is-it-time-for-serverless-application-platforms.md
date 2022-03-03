@@ -50,10 +50,8 @@ So then, the only problem remaining would be the name ‘Personal Server’… b
 
 ***
 
-A note from the author
+A note from the author, [Salman](http://www.salmanff.com/) 
 
-[Salman](http://www.salmanff.com/) says:
+"[freezr](http://www.freezr.info/) is my own implementation of a personal server (_ahem_.. Serverless Application Platform), consistent with the architecture laid out above.
 
-[freezr](http://www.freezr.info/) is my own implementation of a personal server (_ahem_.. Serverless Application Platform), consistent with the architecture laid out above.
-
-I will giving a demo of freezr at the [We are Millions](https://www.wearemillions.online/) hackathon on March 10th.
+I will giving a demo of freezr at the [We are Millions](https://www.wearemillions.online/) hackathon on March 10th."
