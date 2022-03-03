@@ -50,9 +50,9 @@ So then, the only problem remaining would be the name ‘Personal Server’… b
 
 ***
 
-About the author
+A note from the author
 
-[Salman](http://www.salmanff.com/)
+[Salman](http://www.salmanff.com/) says:
 
 [freezr](http://www.freezr.info/) is my own implementation of a personal server (_ahem_.. Serverless Application Platform), consistent with the architecture laid out above.
 
