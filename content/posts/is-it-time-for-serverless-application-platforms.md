@@ -5,7 +5,7 @@ description = "by Salman Farmanfarmaian"
 draft = true
 keywords = ["serverless application platform", "personal server", "CEPS", "web3", "web2", "serverless"]
 slug = ""
-title = "Is it time for Serverless Application Platforms?"
+title = "Is it Time for Serverless Application Platforms?"
 
 +++
 In his widely-read [post on web3](https://moxie.org/2022/01/07/web3-first-impressions.html) , Moxie Marlinspike re-iterates over and over again that “If there’s one thing I hope we’ve learned about the world, it’s that people do not want to run their own servers.” The image he seems to have in mind is of a big old-style PC with a cd-drive sitting under the messy desk of a _nerd_, who spends _his(!)_ time making sure it is running smoothly. So of course, seen in that way, as Moxie notes, “Even nerds do not want to run their own servers at this point.” But then he goes on to say that “Even organizations building software full time do not want to run their own servers at this point.” And therein lies his logical flaw. All these “organizations building software” _do_ have their own servers – except that the servers are running in the cloud – some are even called ‘serverless’. Of course individuals don’t want to maintain physical personal servers sitting under their desks, but, much like those software organizations, we may all very well want to have our own personal servers in the cloud, if these were easy enough to install and maintain, and if we had a rich eco-system of apps running on them.
@@ -32,7 +32,7 @@ So how could these two elements come together – the data format and the portab
 
 🤩 Web 2 Switch-ability
 
-As mentioned above, the competition among b2b cloud infrastructure providers has continued to allow for immense value to accrue to the their customers. Until now, these customers have been other businesses that use the cloud. Even so, the cloud providers have done such a good job providing better and better solutions for these customers, which are ever easier to deploy, that such solutions have become almost easy enough to be also deployed for consumers. So not only can one easily envisage a world where multiple service providers compete by providing the best possible personal cloud services to consumers, one does not even need to wait for that. Today, it takes just a few clicks to create a new server on Heroku or on glitch.com or a myriad of other services. Anyone can easily set up their own server within a few minutes. This bodes well for a leading edge of tech-savvy consumers to do exactly that!
+As mentioned above, the competition among b2b cloud infrastructure providers has continued to allow for immense value to accrue to their customers. Until now, these customers have been other businesses that use the cloud. Even so, the cloud providers have done such a good job providing better and better solutions for these customers, which are ever easier to deploy, that such solutions have become almost easy enough to be also deployed for consumers. So not only can one easily envisage a world where multiple service providers compete by providing the best possible personal cloud services to consumers, one does not even need to wait for that. Today, it takes just a few clicks to create a new server on Heroku or on glitch.com or a myriad of other services. Anyone can easily set up their own server within a few minutes. This bodes well for a leading edge of tech-savvy consumers to do exactly that!
 
 But then what? What would you put on those servers? What data, and in what format? How can you make sure that such data is compatible across server types, and that such servers are interoperable (and switch-able), wherever they may sit?
 
@@ -58,7 +58,7 @@ I will giving a demo of freezr at the [We are Millions](https://www.wearemillion
 
 ***
 
-This post is cross-posted also at: TODO SALMAN PLEASE ADD LINK
+This post is cross-posted also on [Salman's website](https://www.salmanff.com/2022-Time-for-Serverless-Application-Platforms). 
 
 ***
 
