@@ -54,7 +54,10 @@ A note from the author, [Salman](http://www.salmanff.com/):
 
 "[freezr](http://www.freezr.info/) is my own implementation of a personal server (_ahem_.. Serverless Application Platform), consistent with the architecture laid out above.
 
-I will giving a demo of freezr at the [We are Millions](https://www.wearemillions.online/) hackathon on March 10th."  
+I will giving a demo of freezr at the [We are Millions](https://www.wearemillions.online/) hackathon on March 10th."
+
+***
+
   
 This post is cross-posted also at: TODO SALMAN PLEASE ADD LINK
 
