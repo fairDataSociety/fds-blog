@@ -68,6 +68,5 @@ This post is cross-posted also at: TODO SALMAN PLEASE ADD LINK
 * Read the [**Fair Data Society principles**](https://principles.fairdatasociety.org/).
 * Fairdrive [**website**](https://fairdrive.fairdatasociety.org/).
 * Follow us on [**Twitter**](https://twitter.com/fairdatasociety)**.**
-* Join our discussions at [**Discord**](https://discord.gg/uBcAueYc)**.**
+* Join our discussions at [**Discord**](https://discord.gg/KrVTmahcUA)**.**
 * Please feel free to reach out via **email**: [**info@fairdatasociety.org**](mailto:info@fairdatasociety.org)
-* Sign up for our **newsletter**! [**Subscribe here**](https://fairdatasociety.org/)**.**
