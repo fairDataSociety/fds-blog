@@ -146,7 +146,7 @@ Our exploration of the commons design principles illustrates how the sustainable
 
 A note from the authors
 
-TODO MISTAL ADD SOME MESSAGE IF YOU WANT?
+TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
 
 ***
 
