@@ -26,4 +26,4 @@ The key to achieving the ideal is detailed in the Swarm whitepaper. The overarch
 
 The technology stack, in practice, is a series of technologies that act in concert and comprises four distinct layers:
 
-![](https://lh5.googleusercontent.com/ZJIGduxsqExmrKbinYCA60XCL2IrUJlzG5xBcpBshAftdvQeyUyIrMFXooDSlmSlSXHJ7LoUA6SNFHfws020OeCjwfqSQLQ-VJg2leELG2rucidDdXeH2URkeobpvlmQMoVJXjtb "Fig 1: Swarm technology stack" =445x176)
+![](/uploads/fig1-swarm-tech-stack.PNG "Fig 1: Swarm technology stack")
