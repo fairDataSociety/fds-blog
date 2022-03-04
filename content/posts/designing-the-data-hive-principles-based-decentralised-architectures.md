@@ -1,7 +1,7 @@
 +++
 categories = []
 date = 2022-03-08T23:00:00Z
-description = "TODO by Author, Author, Author?"
+description = "By Dr Robin Renwick, Aditya Singh and Dr Mistale Taylor"
 draft = true
 keywords = ["commons", "decentralised", "Swarm", "data"]
 slug = ""
@@ -146,7 +146,7 @@ Our exploration of the commons design principles illustrates how the sustainable
 
 A note from the authors
 
-TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
+Robin and Mistale work at [Trilateral Research](https://www.trilateralresearch.com/), and Aditya is doing a PhD at Edinburgh University. We would like to thank Swarm for funding this research.
 
 ***
 
@@ -156,7 +156,7 @@ TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
 
 \[2\]: Swarm : webpage, available at: [https://ethereum.org/en/](https://ethereum.org/en/ "https://ethereum.org/en/").
 
-\[3\]: The current deployment of SWARM uses xDAI. The current roadmap is to deploy SWARM on the Ethereum network once low cost micro-transactions become available with ETH 2.0.
+\[3\]: The current deployment of Swarm uses xDAI. The current roadmap is to deploy Swarm on the Ethereum network once low cost micro-transactions become available with ETH 2.0.
 
 \[4\]: Fair Data Principles, v.0.0.1, available at: [https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f](https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f "https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f").
 
@@ -164,7 +164,7 @@ TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
 
 \[6\]: Swarm: Storage and communication infrastructure for a self-sovereign digital society, available at: [https://www.ethswarm.org/swarm-whitepaper.pdf](https://www.ethswarm.org/swarm-whitepaper.pdf "https://www.ethswarm.org/swarm-whitepaper.pdf").
 
-\[7\]: Benisi, N. Z., Aminian, M., & Javadi, B. (2020). Blockchain-based decentralized storage networks: A survey. Journal of Network and Computer Applications, 162, 102656. 
+\[7\]: Benisi, N. Z., Aminian, M., & Javadi, B. (2020). Blockchain-based decentralized storage networks: A survey. Journal of Network and Computer Applications, 162, 102656.
 
 \[8\]: Sia, webpage, available at: [https://sia.tech/](https://sia.tech/ "https://sia.tech/").
 
@@ -172,7 +172,7 @@ TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
 
 \[10\]: Storj, webpage, available at: [https://www.storj.io/](https://www.storj.io/ "https://www.storj.io/").
 
-\[11\]: Androutsellis-Theotokis, S., & Spinellis, D. (2004). A survey of peer-to-peer content distribution technologies. _ACM computing surveys (CSUR)_, _36_(4), 335-371.
+\[11\]: Androutsellis-Theotokis, S. & Spinellis, D. (2004). A survey of peer-to-peer content distribution technologies. _ACM computing surveys (CSUR)_, _36_(4), 335-371.
 
 \[12\]: IPFS, Github page, available at: [https://github.com/ipfs/ipfs](https://github.com/ipfs/ipfs "https://github.com/ipfs/ipfs").
 
@@ -188,7 +188,7 @@ TODO MISTALE ADD SOME MESSAGE IF YOU WANT?
 
 \[18\]: Proposal for a Regulation of the European Parliament and of the Council on European data governance (Data Governance Act) COM/2020/767, available at: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767 "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767").
 
-\[19\]: For further exploration of this topics, please refer to:   
+\[19\]: For further exploration of this topics, please refer to:  
 Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36;  
 Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619;  
 Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). De Gruyter.
