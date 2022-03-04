@@ -144,6 +144,12 @@ Our exploration of the commons design principles illustrates how the sustainable
 
 ***
 
+A note from the authors
+
+TODO MISTAL ADD SOME MESSAGE IF YOU WANT?
+
+***
+
 **References and footnotes**
 
 \[1\] : Swarm: Storage and communication infrastructure for a self-sovereign digital society, available at: [https://www.ethswarm.org/swarm-whitepaper.pdf](https://www.ethswarm.org/swarm-whitepaper.pdf "https://www.ethswarm.org/swarm-whitepaper.pdf").
@@ -208,3 +214,14 @@ Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Govern
 \[29\]: David Bollier, _Free Fair and Alive_ 16 (2019).
 
 \[30\]: Walch, A. Deconstructing “Decentralization”: Exploring the Core Claim of Crypto Systems. In _Cryptoassets_ (pp. 39-68). Oxford University Press.
+
+***
+
+# **Join the FDS Community**
+
+* Fair Data Society [**website**](https://fairdatasociety.org/).
+* Read the [**Fair Data Society principles**](https://principles.fairdatasociety.org/).
+* Fairdrive [**website**](https://fairdrive.fairdatasociety.org/).
+* Follow us on [**Twitter**](https://twitter.com/fairdatasociety)**.**
+* Join our discussions at [**Discord**](https://discord.gg/KrVTmahcUA)**.**
+* Please feel free to reach out via **email**: [**info@fairdatasociety.org**](mailto:info@fairdatasociety.org)
