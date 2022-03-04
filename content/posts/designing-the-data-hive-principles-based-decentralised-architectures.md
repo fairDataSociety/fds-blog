@@ -8,7 +8,7 @@ slug = ""
 title = "Designing the (data)Hive:  Principles-based decentralised architectures"
 
 +++
-**Introduction**
+# **Introduction**
 
 Decentralised architectures and networks are slowly embedding themselves into the technological and societal landscape, empowered by communities of like-minded people who strive to alter the existing socio-economic order by leveraging peer-to-peer (P2P) technologies that afford disintermediation and radical shifts in how entities maintain trust. Bottom-up initiatives, free from centralised control and command structures, are appearing cross-sectorally - built on the premise, and promise, of distributed ledger technology.
 
@@ -16,7 +16,7 @@ In this article, we discuss one such initiative, Swarm, by drawing relations bet
 
 We also introduce the idea of the commons along with a set of “commons design principles”. We highlight how the Swarm community might simultaneously implement principles flowing from existing data protection frameworks and the commons to guide the development of robust design strategies to manifest the communicated goal of a fair and just data-led society.
 
-**What is Swarm**
+# **What is Swarm**
 
 Swarm \[1\] is a P2P, decentralised storage and communication infrastructure, compatible with Ethereum \[2\] Virtual Machine (EVM) networks \[3\]. The Swarm mission is to provide the technical platform for a decentralised internet - based on a normative framework that is aligned with the Fair Data Principles \[4\] and envisioned as a vehicle for a fairer society.
 
@@ -50,11 +50,11 @@ The Swarm project describes these meta-values as systemic qualities, shared thro
 
 Principles-based data sharing ideologies have a rich history, originating in a number of data protection frameworks around the world. Applying a principles-based framework to a P2P network is, however, a novel and unique strategy. It could be stated that Swarm is attempting to build a bottom-up data economy, based on emergent, permissionless, and non-hierarchical principles. This contrasts strongly with the top-down approaches that have, more often than not, emerged from centralised regulatory or legislative bodies.
 
-**Introduction to principles-based data protection frameworks**
+# **Introduction to principles-based data protection frameworks**
 
 The emergence of digital technologies has brought monumental change in how society functions, whether seen through the lens of computation, telecommunications, or the concept of the internet and all its related technologies. Central to most conceptions of modern society is the collection, exchange and storing of digital information or data. Since the 1970s, data protection regulation has been developing globally in an effort to protect data and the privacy of its owners, as well as to provide the structure to ensure the free flow of data for economic purposes.
 
-**_A top-down approach: international, supranational and national regulation_**
+## **_A top-down approach: international, supranational and national regulation_**
 
 Various top-down regulatory and legal frameworks guide local and global data flows. The US Federal Trade Commission, an independent governmental agency tasked with protecting consumers and maintaining competition, released the US Fair Information Practices or FIPs \[15\] in 1973 (since updated and now called Fair Information Practice Principles). The goal was to outline a set of principles to help maintain informational privacy in an electronic marketplace. The FIPs represented the first attempt by a governmental body to regulate the data market - and laid out a framework to support the functioning of the emerging data economy. Several European states, such as Sweden and Germany, subsequently enacted their own data protection laws.
 
@@ -64,13 +64,13 @@ National constitutional traditions and, eventually, the 1995 EU Data Protection 
 
 In 2020, the European Commission issued their proposal for an EU Data Governance Act \[18\], which applies to both personal data and non-personal data. This proposed legislation demonstrates how the EU Commission could be becoming more conscious of a commons-/fairness-based approach to data flows and has commonalities with the bottom-up approaches that we see emerging within decentralised networks and their associated technological architectures.
 
-**_A bottom-up approach: the decentralised model_**
+## **_A bottom-up approach: the decentralised model_**
 
 Much of the distributed ledger based technologies that have emerged over the last 10 years is rooted in a specific philosophical ideology, intended to replace or reject statist ideals with more democratic, equal, libertarian or anarchic models of social organisation \[19\]. For a shared social contract to emerge within a community, a shared set of ideals must manifest through the community. Most distributed ledger-based incarnations root ideology within a network “whitepaper” or GitHub repository, often enveloped as community or network “ground-zero”.
 
 Swarm propose the Fair Data Society’s Fair Data Principles \[20\] as the bedrock of a shared social contract, intended to inform the ideology and philosophy of all Swarm network participants. Not only do the principles support the existing ‘Book of Swarm’, they set out (and maintain) various principles to which behaviours and actions of agents in the social layer of the network should adhere. While the principles should not be seen as a defined set of rules, they do look and feel extremely similar to data protection principles we have seen develop from the top-down approaches \[21\]. By examining the principles side by side, we can draw out common themes - highlighting how both sets of principles have common overarching ideals - even though they have developed in very different ways.
 
-**_Commonalities and consistencies_**
+## **_Commonalities and consistencies_**
 
 ![Fig 2: Illustration of varying approaches to regulating data flows](/uploads/fig2-data-flows.PNG "Fig 2: Illustration of varying approaches to regulating data flows")
 
@@ -88,7 +88,7 @@ It should also be remembered that a complex technical infrastructure is built ar
 
 We propose that drawing from the theory and practice of commons-based governance could provide further insights into how some of these questions could be addressed. Swarm’s use of distributed architecture and technological incorporation of participation and governance incentives could be seen as an example of a digital commons, with storage and communication infrastructure governed as a shared resource. The theory and practices of (digital) “commons” presents a rich history to draw from concerning the governance of sustainable decentralised networks.
 
-**Introduction to the commons**
+# **Introduction to the commons**
 
 The commons is a term often used to refer broadly to resources that are shared by a group of people. Historically, commons would be lands that were used by multiple people, or households, over a certain period of time. Commons as a theory for common stewardship of resources was popularised by Elinor Ostrom, with her critique of Garrett Hardin’s article “The Tragedy of the Commons” \[27\]. Ostrom demonstrated the commons as a form of decentralised management of resources, where resources could be sustainably governed without centralised management from governments, or the assignment of private property rights.
 
@@ -96,7 +96,7 @@ Most notably, Ostrom identified “design principles”, a form of best practice
 
 While Ostrom’s analysis was originally limited to natural resource systems, and “common pool resources”, the analytical lens of the commons has since been applied to “knowledge commons” (e.g. libraries, archives), and ‘digital commons’ (e.g. scholarly publishing, Wikipedia, free software communities) \[28\].
 
-**How the commons, Swarm and the Fair Data Principles could interact**
+# **How the commons, Swarm and the Fair Data Principles could interact**
 
 First, decentralised architecture could support the success of digital commons in important ways. Technological affordances from the architecture can enable key features of commons governance, such as granular rules around resource use, transparent and inclusive consensus building processes, mechanisms for monitoring and enforcing compliance, and so on.
 
@@ -104,7 +104,7 @@ Second, the commons can also order thinking with respect to the governance of su
 
 Initiatives like Swarm and the Fair Data Society support decentralised architecture, in part to incorporate greater fairness and participation in the governance, and use, of data. Respectively, “commons”-based institutional frameworks are well suited to aiding this task by providing principles that can guide design.
 
-**Design principles of the commons**
+# **Design principles of the commons**
 
 The design principles for sustainable commons are:
 
@@ -136,7 +136,7 @@ At the same time, the design principles can highlight elements of governance tha
 * Are there off-chain behaviours that could negatively impact the network? Can there be agreed upon rules for those behaviours?
 * What mechanisms could be employed to prevent infractions? Could additional legal technical, or organisational measures support the agreed rules or protocols?
 
-**Conclusion**
+# **Conclusion**
 
 Swarm's governance requires engagement with multiple normative and legal frameworks. For instance, to the extent that it processes personal data, it must align with data protection principles and regulation. Legislative proposals such as the Data Governance Act additionally present both a challenge and an opportunity. Infrastructure like Swarm may align well with the data-related innovation conceived by the EU’s recent proposals, but this could in turn bring further regulatory scrutiny. A marriage of top-down data protection frameworks, such as those emanating from US, EU and international institutions, and Swarm and the Fair Data Principles, which flow from a community-based, bottom-up approach, could guide data governance related to Swarm. In addition to engagement with legal frameworks, distributed networks raise governance issues \[30\], not all of which may be addressed at the level of technical architecture. The sustainability of commons ventures seems to benefit also from the successful instantiation of certain design principles.
 
@@ -144,7 +144,7 @@ Our exploration of the commons design principles illustrates how the sustainable
 
 ***
 
-References and footnotes
+**References and footnotes**
 
 \[1\] : Swarm: Storage and communication infrastructure for a self-sovereign digital society, available at: [https://www.ethswarm.org/swarm-whitepaper.pdf](https://www.ethswarm.org/swarm-whitepaper.pdf "https://www.ethswarm.org/swarm-whitepaper.pdf").
 
