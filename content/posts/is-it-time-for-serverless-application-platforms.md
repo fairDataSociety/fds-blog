@@ -2,7 +2,6 @@
 categories = []
 date = 2022-03-06T23:00:00Z
 description = "by Salman Farmanfarmaian"
-draft = true
 keywords = ["serverless application platform", "personal server", "CEPS", "web3", "web2", "serverless"]
 slug = ""
 title = "Is it Time for Serverless Application Platforms?"
