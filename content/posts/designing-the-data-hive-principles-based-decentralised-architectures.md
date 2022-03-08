@@ -162,7 +162,7 @@ Robin and Mistale are researchers at [Trilateral Research](https://www.trilatera
 \[5\]: _Ibid._, p.18.
 
 \[6\]: For further exploration of this topics, please refer to:  
-Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36; Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619; Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). De Gruyter.
+Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36; Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619; Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). 
 
 \[7\]: The Fair Data Society Principles themselves explicitly "draw on the previous works of DataEthics, MyData, World Fair Trade Organisation, Status, Ethical Design Manifesto and various philosophical works", see Acknowledgments: [https://principles.fairdatasociety.org/](https://principles.fairdatasociety.org/ "https://principles.fairdatasociety.org/").
 
