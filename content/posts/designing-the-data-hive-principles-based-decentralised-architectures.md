@@ -90,17 +90,17 @@ We propose that drawing from the theory and practice of commons-based governance
 
 # **Introduction to the commons**
 
-The commons is a term often used to refer broadly to resources that are shared by a group of people. Historically, commons would be lands that were used by multiple people, or households, over a certain period of time. Commons as a theory for common stewardship of resources was popularised by Elinor Ostrom, with her critique of Garrett Hardin’s article _The Tragedy of the Commons_. Ostrom demonstrated the commons as a form of decentralised management of resources, where resources could be sustainably governed without centralised management from governments, or the assignment of private property rights.
+The commons is a term often used to refer broadly to resources that are shared by a group of people. Historically, commons would be lands that were used by multiple people, or households, over a certain period of time. Commons as a theory for common stewardship of resources was popularised by Elinor Ostrom, with her critique of Garrett Hardin’s article _The Tragedy of the Commons_ \[9\]. Ostrom demonstrated the commons as a form of decentralised management of resources, where resources could be sustainably governed without centralised management from governments, or the assignment of private property rights.
 
 Most notably, Ostrom identified “design principles”, a form of best practices that were largely present in how a commons was governed, in instances where communities had sustainably and peacefully managed shared resources over time.
 
-While Ostrom’s analysis was originally limited to natural resource systems, and “common pool resources”, the analytical lens of the commons has since been applied to “knowledge commons” (e.g., libraries, archives, Wikipedia), and “digital commons” (e.g., scholarly publishing, free software communities, Creative Commons licenses) \[9\].
+While Ostrom’s analysis was originally limited to natural resource systems, and “common pool resources”, the analytical lens of the commons has since been applied to “knowledge commons” (e.g., libraries, archives, Wikipedia), and “digital commons” (e.g., scholarly publishing, free software communities, Creative Commons licenses) \[10\].
 
 # **How the commons, Swarm and the Fair Data Principles could interact**
 
 First, decentralised architecture could support the success of digital commons in important ways. Technological affordances from the architecture can enable key features of commons governance, such as granular rules around resource use, transparent and inclusive consensus building processes, mechanisms for monitoring and enforcing compliance, and so on.
 
-Second, the commons can also order thinking with respect to the governance of sustainable decentralised institutions. Commons scholars have argued that Ostrom’s design principles can guide the design of appropriate governance strategies. As Bollier notes, commons discourse is at once “descriptive”, “constitutive”, and “expressive”: it is descriptive because it helps identify models of community governance that would otherwise go unexamined; it is constitutive because using this new language helps build communities based on principles of the commons; it is expressive because the language of the commons is a way for communities to assert a connection with a resource \[10\].
+Second, the commons can also order thinking with respect to the governance of sustainable decentralised institutions. Commons scholars have argued that Ostrom’s design principles can guide the design of appropriate governance strategies. As Bollier notes, commons discourse is at once “descriptive”, “constitutive”, and “expressive”: it is descriptive because it helps identify models of community governance that would otherwise go unexamined; it is constitutive because using this new language helps build communities based on principles of the commons; it is expressive because the language of the commons is a way for communities to assert a connection with a resource \[11\].
 
 Initiatives like Swarm and the Fair Data Society support decentralised architecture, in part to incorporate greater fairness and participation in the governance, and use, of data. Respectively, “commons”-based institutional frameworks are well suited to aiding this task by providing principles that can guide design.
 
@@ -138,7 +138,7 @@ At the same time, the design principles can highlight elements of governance tha
 
 # **Conclusion**
 
-Swarm's governance requires engagement with multiple normative and legal frameworks. For instance, to the extent that it processes personal data, it must align with data protection principles and regulation. Legislative proposals such as the Data Governance Act additionally present both a challenge and an opportunity. Infrastructure like Swarm may align well with the data-related innovation conceived by the EU’s recent proposals, but this could in turn bring further regulatory scrutiny. A marriage of top-down data protection frameworks, such as those emanating from US, EU and international institutions, and Swarm and the Fair Data Principles, which flow from a community-based, bottom-up approach, could guide data governance related to Swarm. In addition to engagement with legal frameworks, distributed networks raise governance issues, not all of which may be addressed at the level of technical architecture \[11\]. The sustainability of commons ventures seems to benefit also from the successful instantiation of certain design principles.
+Swarm's governance requires engagement with multiple normative and legal frameworks. For instance, to the extent that it processes personal data, it must align with data protection principles and regulation. Legislative proposals such as the Data Governance Act additionally present both a challenge and an opportunity. Infrastructure like Swarm may align well with the data-related innovation conceived by the EU’s recent proposals, but this could in turn bring further regulatory scrutiny. A marriage of top-down data protection frameworks, such as those emanating from US, EU and international institutions, and Swarm and the Fair Data Principles, which flow from a community-based, bottom-up approach, could guide data governance related to Swarm. In addition to engagement with legal frameworks, distributed networks raise governance issues, not all of which may be addressed at the level of technical architecture \[12\]. The sustainability of commons ventures seems to benefit also from the successful instantiation of certain design principles.
 
 Our exploration of the commons design principles illustrates how the sustainable governance of distributed networks may raise complex questions. The Fair Data Principles and the Book of Swarm represent ongoing consensus within the community with respect to some of these questions, but there are further governance elements of which the community must remain cognisant. For instance, the role of maintainers and developers, the presence of accessible dispute resolution, and rules of participation surrounding both meta-data and non-personal data can be key elements of sustained engagement from a community of decentralised participants. There may be opportunities for the Swarm community to be more explicit about developing consensus on these accounts. As such, in designing and governing bottom-up, decentralised infrastructures, Swarm need not start from scratch, and has many existing traditions to draw from.
 
@@ -152,68 +152,30 @@ Robin and Mistale are researchers at [Trilateral Research](https://www.trilatera
 
 **References and footnotes**
 
-\[1\] : Swarm: Storage and communication infrastructure for a self-sovereign digital society, available at: [https://www.ethswarm.org/swarm-whitepaper.pdf](https://www.ethswarm.org/swarm-whitepaper.pdf "https://www.ethswarm.org/swarm-whitepaper.pdf").
+\[1\]: The current deployment of Swarm uses xDAI. The current roadmap is to deploy Swarm on the Ethereum network once low cost micro-transactions become available with ETH 2.0.
 
-\[2\]: Ethereum : webpage, available at: [https://ethereum.org/en/](https://ethereum.org/en/ "https://ethereum.org/en/").
+\[2\]: Benisi, N. Z., Aminian, M., & Javadi, B. (2020). Blockchain-based decentralized storage networks: A survey. Journal of Network and Computer Applications, 162, 102656.
 
-\[3\]: The current deployment of Swarm uses xDAI. The current roadmap is to deploy Swarm on the Ethereum network once low cost micro-transactions become available with ETH 2.0.
+\[3\]: Androutsellis-Theotokis, S. & Spinellis, D. (2004). A survey of peer-to-peer content distribution technologies. _ACM computing surveys (CSUR)_, _36_(4), 335-371.
 
-\[4\]: Fair Data Principles, v.0.0.1, available at: [https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f](https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f "https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f").
+\[4\]: Tron, V. (2020). the book of Swarm: storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web, p.17.
 
-\[5\]: Tron, V. (2020). The Book of Swarm: storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web, available at: [https://www.ethswarm.org/The-Book-of-Swarm.pdf](https://www.ethswarm.org/The-Book-of-Swarm.pdf "https://www.ethswarm.org/The-Book-of-Swarm.pdf").
+\[5\]: _Ibid._, p.18.
 
-\[6\]: Swarm: Storage and communication infrastructure for a self-sovereign digital society, available at: [https://www.ethswarm.org/swarm-whitepaper.pdf](https://www.ethswarm.org/swarm-whitepaper.pdf "https://www.ethswarm.org/swarm-whitepaper.pdf").
+\[6\]: For further exploration of this topics, please refer to:  
+Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36; Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619; Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). De Gruyter.
 
-\[7\]: Benisi, N. Z., Aminian, M., & Javadi, B. (2020). Blockchain-based decentralized storage networks: A survey. Journal of Network and Computer Applications, 162, 102656.
+\[7\]: The Fair Data Society Principles themselves explicitly "draw on the previous works of DataEthics, MyData, World Fair Trade Organisation, Status, Ethical Design Manifesto and various philosophical works", see Acknowledgments: [https://principles.fairdatasociety.org/](https://principles.fairdatasociety.org/ "https://principles.fairdatasociety.org/").
 
-\[8\]: Sia, webpage, available at: [https://sia.tech/](https://sia.tech/ "https://sia.tech/").
+\[8\]: DeLanda, M. (2019). A new philosophy of society: Assemblage theory and social complexity. Bloomsbury Publishing.
 
-\[9\]: Filecoin, webpage, available at: [https://filecoin.io/](https://filecoin.io/ "https://filecoin.io/").
+\[9\]: Garrett Hardin, ‘The Tragedy of the Commons’, 168 Science 1243 (1968).
 
-\[10\]: Storj, webpage, available at: [https://www.storj.io/](https://www.storj.io/ "https://www.storj.io/").
+\[10\]: See for instance : Elinor Ostrom and Charlotte Hess (Eds.) _Understanding Knowledge as Commons_ (2004); Brett M. Frischmann, _et al_ (Eds.) _Governing Knowledge Commons_ (2014).
 
-\[11\]: Androutsellis-Theotokis, S. & Spinellis, D. (2004). A survey of peer-to-peer content distribution technologies. _ACM computing surveys (CSUR)_, _36_(4), 335-371.
+\[11\]: David Bollier, _Free Fair and Alive_ 16 (2019).
 
-\[12\]: IPFS, Github page, available at: [https://github.com/ipfs/ipfs](https://github.com/ipfs/ipfs "https://github.com/ipfs/ipfs").
-
-\[13\]: Tron, V. (2020). the book of Swarm: storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web, p.17.
-
-\[14\]: Tron, V. (2020). the book of Swarm: storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web, p.18.
-
-\[15\]: See the FIPs principles in the US Department of Justice Library, US Department of Health, Education and Welfare: Secretary’s Advisory Committee on Automated Personal Data Systems, ‘Records, Computers, and the Rights of Citizens’ (1973) xx-xxi.
-
-\[16\]: Organisation for Economic Co-operation and Development. _OECD Guidelines on the Protection of Privacy and Transborder Flows of Personal Data_. September 23, 1980; available at: [http://www.oecd.org/document/18/0,2340,en_2649_3425__1815186_1_1_1_1,00.html_](http://www.oecd.org/document/18/0,2340,en_2649_34255_1815186_1_1_1_1,00.html "http://www.oecd.org/document/18/0,2340,en_2649_34255_1815186_1_1_1_1,00.html")
-
-\[17\]: Council of Europe, Convention for the Protection of Individuals with Regard to the Automatic Processing of Individual Data, 28 January 1981, ETS 108.
-
-\[18\]: Proposal for a Regulation of the European Parliament and of the Council on European data governance (Data Governance Act) COM/2020/767, available at: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767 "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767").
-
-\[19\]: For further exploration of this topics, please refer to:  
-Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36;  
-Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619;  
-Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). De Gruyter.
-
-\[20\]: Fair Data Principles, available at: [https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f](https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f "https://medium.com/fair-data-society/fair-data-principles-56e6ee5e157f").
-
-\[21\]: The Fair Data Society Principles themselves explicitly "draw on the previous works of DataEthics, MyData, World Fair Trade Organisation, Status, Ethical Design Manifesto and various philosophical works", see Acknowledgments: [https://principles.fairdatasociety.org/](https://principles.fairdatasociety.org/ "https://principles.fairdatasociety.org/").
-
-\[22\]: Fair Data Principles, principles 2, 3 and 4.
-
-\[23\]: GDPR, recital 4.
-
-\[24\]: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on European data governance (Data Governance Act proposal) COM/2020/767, available at: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767 "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0767").
-
-\[25\]: Data Governance Act proposal, Art 2(10).
-
-\[26\]: DeLanda, M. (2019). A new philosophy of society: Assemblage theory and social complexity. Bloomsbury Publishing.
-
-\[27\]: Garrett Hardin, ‘The Tragedy of the Commons’, 168 Science 1243 (1968).
-
-\[28\]: See for instance : Elinor Ostrom and Charlotte Hess (Eds.) _Understanding Knowledge as Commons_ (2004); Brett M. Frischmann, _et al_ (Eds.) _Governing Knowledge Commons_ (2014).
-
-\[29\]: David Bollier, _Free Fair and Alive_ 16 (2019).
-
-\[30\]: Walch, A. Deconstructing “Decentralization”: Exploring the Core Claim of Crypto Systems. In _Cryptoassets_ (pp. 39-68). Oxford University Press.
+\[12\]: Walch, A. Deconstructing “Decentralization”: Exploring the Core Claim of Crypto Systems. In _Cryptoassets_ (pp. 39-68). Oxford University Press.
 
 ***
 
