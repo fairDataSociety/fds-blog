@@ -2,8 +2,7 @@
 categories = []
 date = 2022-03-08T23:00:00Z
 description = "By Robin Renwick (PhD), Aditya Singh (LLM) and Mistale Taylor (PhD)"
-draft = true
-keywords = ["commons", "decentralised", "Swarm", "data"]
+keywords = ["governance", "commons", "decentralised", "Swarm", "data"]
 slug = ""
 title = "Designing the (data)Hive:  Principles-based decentralised architectures"
 
