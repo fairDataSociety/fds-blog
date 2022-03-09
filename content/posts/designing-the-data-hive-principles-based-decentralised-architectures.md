@@ -2,6 +2,7 @@
 categories = []
 date = 2022-03-08T23:00:00Z
 description = "By Robin Renwick (PhD), Aditya Singh (LLM) and Mistale Taylor (PhD)"
+draft = true
 keywords = ["governance", "commons", "decentralised", "Swarm", "data"]
 slug = ""
 title = "Designing the (data)Hive:  Principles-based decentralised architectures"
@@ -71,8 +72,6 @@ Swarm propose the Fair Data Society’s [Fair Data Principles](https://medium.co
 
 ## **_Commonalities and consistencies_**
 
-![Fig 2: Illustration of varying approaches to regulating data flows](/uploads/fig2-data-flows.PNG "Fig 2: Illustration of varying approaches to regulating data flows")
-
 In the FIPs, two of the more distinct rules were enacted to protect the consumer, through concepts related to “notice/awareness” and “choice/consent”. The concept of consent-based data processing, which implies a degree of control and ownership over how an individual’s data is processed, has stayed consistent in subsequent data protection regulation. As data protection has become increasingly framed as a rights-based notion (see, e.g., article 7 of the [EU Charter of Fundamental Rights](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT)), the individual as data subject has continued to be foregrounded.
 
 The more normatively-grounded Fair Data Principles echo this with their three principles of “ownership”, “control” and “consensual access”, alongside individual rights, such as the right of a data subject to request and receive data pertaining to them and to rectify or delete this data (see too, e.g., the OECD “individual participation principle” and the GDPR list of data subject rights). To be in line with this approach, Swarm should - in principle - also foreground the individual’s agency and rights to contribute to the fair data economy.
@@ -85,7 +84,7 @@ Interestingly, data protection regulation is moving towards a more normative-bas
 
 It should also be remembered that a complex technical infrastructure is built around the Fair Data Principles and, while the principles generally flowing from the above illustration could be operationalised by decentralised architecture and blockchain technology, there are still open questions as to how the principles can be realised in practice. Further, many open questions regarding governance and interactions with the incumbent legal frameworks have yet to be explored in full by the Swarm ecosystem.
 
-We propose that drawing from the theory and practice of commons-based governance could provide further insights into how some of these questions could be addressed. Swarm’s use of distributed architecture and technological incorporation of participation and governance incentives could be seen as an example of a digital commons, with storage and communication infrastructure governed as a shared resource. The theory and practices of (digital) “commons” presents a rich history to draw from concerning the governance of sustainable decentralised networks.
+We propose that drawing from the theory and practice of commons-based governance could provide further insights into how some of these questions could be addressed. Swarm’s use of distributed architecture and technological incorporation of participation and governance incentives could be seen as an example of a digital commons, with storage and communication infrastructure governed as a shared resource. The theory and practices of (digital) “commons” presents a rich history to draw from concerning the governance of sustainable decentralised networks.![Fig 2: Illustration of varying approaches to regulating data flows](/uploads/fig2-data-flows.PNG "Fig 2: Illustration of varying approaches to regulating data flows")
 
 # **Introduction to the commons**
 
@@ -162,7 +161,7 @@ Robin and Mistale are researchers at [Trilateral Research](https://www.trilatera
 \[5\]: _Ibid._, p.18.
 
 \[6\]: For further exploration of this topics, please refer to:  
-Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36; Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619; Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170). 
+Karlstrøm, H. (2014). Do libertarians dream of electric coins? The material embeddedness of Bitcoin. _Distinktion: Scandinavian Journal of Social Theory_, _15_(1), 23-36; Swan, M., & De Filippi, P. (2017). Toward a philosophy of blockchain: A symposium: Introduction. _Metaphilosophy_, 48(5), 603-619; Groos, J. (2020). Crypto Politics: Notes on Sociotechnical Imaginaries of Governance in Blockchain Based Technologies. In _Data Loam_ (pp. 148-170).
 
 \[7\]: The Fair Data Society Principles themselves explicitly "draw on the previous works of DataEthics, MyData, World Fair Trade Organisation, Status, Ethical Design Manifesto and various philosophical works", see Acknowledgments: [https://principles.fairdatasociety.org/](https://principles.fairdatasociety.org/ "https://principles.fairdatasociety.org/").
 
