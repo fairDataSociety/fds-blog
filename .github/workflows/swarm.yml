@@ -1,0 +1,47 @@
+name: push to swarm
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Upload
+        id: swarm-upload
+        uses: ethersphere/swarm-actions/upload-dir@latest
+        with:
+          bee-url: https://gateway.fairdatasociety.org/proxy/
+          dir: ./public
+          index-document: index.html
+
+      - name: update feed
+        id: swarm-feed
+        uses: ethersphere/swarm-actions/write-feed@latest
+        with:
+          bee-url: https://gateway.fairdatasociety.org/proxy/
+          reference: ${{ steps.swarm-upload.outputs.reference }}
+          topic: fds_blog
+          signer: ${{ secrets.SIGNER }}
+
+
+      - name: print
+        run: |
+          echo ${{ steps.swarm-upload.outputs.reference }}
+          echo ${{ steps.swarm-feed.outputs.reference }}
