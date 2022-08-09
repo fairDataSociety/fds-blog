@@ -1,7 +1,7 @@
 +++
 categories = []
 date = 2022-08-01T22:00:00Z
-description = "BY Fair Data Society"
+description = "By Fair Data Society"
 draft = true
 keywords = ["Arts", "Freedom", "Privacy", "Web3", "WAM Sessions"]
 slug = ""
