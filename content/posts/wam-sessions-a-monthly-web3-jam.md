@@ -14,7 +14,7 @@ These **informative and thought-provoking discussions** will focus on **privacy,
 
 With WAM Sessions you’ll get to look past the marketing hype and be able to understand why Web3 is not just a fad, but a technology with deep inherent value and potential.
 
-Every month, two new sessions with complementary workshops will air. In addition to the discussions, you’ll have the opportunity to dive into a live debate with the guests after each session on the [Fair Data Society Discord](https://discord.com/channels/888359049551310869/940634835339317259) (“stage-chat” channel).
+Every month, new sessions with complementary workshops will air. In addition to the discussions, you’ll have the opportunity to dive into a live debate with the guests after each session on the [Fair Data Society Discord](https://discord.com/channels/888359049551310869/940634835339317259) (“stage-chat” channel).
 
 # Programme in August
 
@@ -30,8 +30,8 @@ In August you can already expect two panels and three workshops:
 
 **16 August**
 
-* **Panel — Fair data economy as an opportunity and alternative to surveillance capitalism  
-  \**– [**Sille Sepp**](https://www.linkedin.com/in/sille-sepp/) — Deputy General Manager of MyData Global, a non-profit  
+* Panel — Fair data economy as an opportunity and alternative to surveillance capitalism  
+  – [**Sille Sepp**](https://www.linkedin.com/in/sille-sepp/) — Deputy General Manager of MyData Global, a non-profit  
   organisation exploring and promoting fair, ethical and sustainable use of personal data.  
   – [**Ruben Lasuy**](https://www.linkedin.com/in/rubenlasuy/details/experience/) — An expert in data privacy, data governance and information management who has worked with large businesses such as AXA, Telenor, and Komatsu.  
   – **Črt Ahlin** — Fair Data Society
