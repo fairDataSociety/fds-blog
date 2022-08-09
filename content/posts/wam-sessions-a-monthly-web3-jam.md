@@ -1,9 +1,9 @@
 +++
 categories = []
-date = ""
-description = ""
+date = 2022-08-01T22:00:00Z
+description = "BY Fair Data Society"
 draft = true
-keywords = []
+keywords = ["Arts", "Freedom", "Privacy", "Web3", "WAM Sessions"]
 slug = ""
 title = "WAM Sessions — a monthly Web3 jam"
 
@@ -16,7 +16,7 @@ With WAM Sessions you’ll get to look past the marketing hype and be able to un
 
 Every month, two new sessions with complementary workshops will air. In addition to the discussions, you’ll have the opportunity to dive into a live debate with the guests after each session on the [Fair Data Society Discord](https://discord.com/channels/888359049551310869/940634835339317259) (“stage-chat” channel).
 
-### Programme in August
+# Programme in August
 
 In August you can already expect two panels and three workshops:
 
