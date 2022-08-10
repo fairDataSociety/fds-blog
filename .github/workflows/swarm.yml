@@ -39,8 +39,8 @@ jobs:
         with:
           bee-url: https://gateway.fairdatasociety.org/proxy/
           reference: ${{ steps.swarm-upload.outputs.reference }}
-          topic: fds_blog
-          signer: ${{ secrets.SIGNER }}
+          topic: fds_blog_2
+          signer: ${{ secrets.SIGNER2 }}
 
       - name: print references
         run: |
