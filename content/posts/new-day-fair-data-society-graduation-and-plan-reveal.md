@@ -2,7 +2,6 @@
 categories = [""]
 date = 2023-03-14T23:00:00Z
 description = "Fair Daya Society Graduates From Swarm - Online Event"
-draft = true
 keywords = []
 slug = ""
 title = "New Day - Fair Data Society Graduation and Plan Reveal"
