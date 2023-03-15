@@ -11,10 +11,10 @@ title = "New Day - Fair Data Society Graduation and Plan Reveal"
 
 Attention privacy activists, data enthusiasts and supporters of a free and open internet! We have some exciting news to share with you.
 
-**On March 21st 2023, Fair Data Society will be marking a NEW DAY,  
-**_(a new dawn),_  
-_(a new life),  
-_**as it is about to graduate from Swarm, and we are - _feeling good_!**
+On March 21st 2023, Fair Data Society will be marking a NEW DAY,  
+_(a new dawn),_  
+(a new life),  
+**as it is about to graduate from Swarm, and we are - _feeling good_!**
 
 After being incubated by Swarm Foundation since 2020, Fair Data Society is about to step on its independent path. This virtual event is a celebration of our journey so far and a glimpse into our future towards the decentralised self-sovereign data commons. We invite you to attend our event and join us in the quest for a free digital world!
 
